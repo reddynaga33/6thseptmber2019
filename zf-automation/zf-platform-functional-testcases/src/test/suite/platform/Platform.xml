@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="Platform" preserve-order="true">
+
+    <suite-files>
+        <suite-file path="deviceconfighierarchy/DeviceConfigHierarchy.xml"/>
+    </suite-files>
+
+</suite>

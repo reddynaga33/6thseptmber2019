@@ -1,0 +1,992 @@
+
+
+[
+	{
+		"Tc01addUser": {
+			"Name": "testuser",
+			"Email": "karu.testing@gmail.com",
+			"SureName": "testuser",
+			"Role": "Administrator",
+			"CancelText": "You have edited data on this page, do you want to discard them?",
+			"ToasterMsgSuccess": "Success",
+			"ToasterMsgSuccessCreated": "User was created successfully."
+		}
+	},
+	{
+		"Tc02EditUser": {
+			"Name": "testuser",
+			"EditName": "testuser111",
+			"EditEmail": "karu.testing@gmail.com",
+			"EditSureName": "testuser111",
+			"EditRole": "Admin",
+			"CancelText": "You have edited data on this page, do you want to discard them?",
+			"ToasterMsgSuccess": "Success",
+			"ToasterMsgSuccesUpdated": "Changes were saved successfully."
+		}
+	},
+	{
+		"Tc03DeleteUser": {
+			"Name": "testuser111",
+			"Noresultvalue": "No results found"
+		}
+	},
+	{
+		"TCO2AssetSearch": {
+			"AssetName": "TEST12345",
+			"customer": "ZF",
+			"Area": "Kerala",
+			"BusinessUnit": "ZF",
+			"Country": "India"
+		}
+	},
+	{
+		"TCO3AssetAdvacnedSearch": {
+			"BasicAssestType": "BASIC_ASSET_TYPE",
+			"Brand": "TRW",
+			"Manufacturer": "Fiat"
+		}
+	},
+	{
+		"TCO4clearAllFilter": {
+			"AssetName": "TEST12345",
+			"Area": "Kerala",
+			"customer": "ZF",
+			"BusinessUnit": "ZF",
+			"BasicAssestType": "BASIC_ASSET_TYPE",
+			"Brand": "TRW",
+			"Manufacturer": "Fiat"
+		}
+	},
+	{
+		"TCO5AssetSearchWithInvalidKey": {
+			"AssetName": "BMWwww",
+			"Area": "Kerala",
+			"customer": "ZF",
+			"Noresultvalue": "No assets found.",
+			"BusinessUnit": "ZF"
+		}
+	},
+	{
+		"TCO6CreateAssetstWithAllFeilds": {
+			"Country": "India",
+			"Area": "Kerala",
+			"LocationAddress": "Test",
+			"LocationGeolocationLatitude": "Test",
+			"LocationGeolocationLongitude": "Test",
+			"Customer": "ZF",
+			"BusinessUnit": "Vehicle",
+			"AssetName": "TEST12345",
+			"AssetType": "Electric bus",
+			"GATEWAYType": "Type",
+			"Manufacturer": "Jeep",
+			"Model": "Commander",
+			"Brand": "TRW",
+			"SerialNumber": "test12345",
+			"SensorID": "123456789",
+			"Description": "Description for Asset",
+			"MetaDatalicensePlate": "value for licensePlate",
+			"MetaDataPropulsionType": "value for PrpulsionType",
+			"MetaDatavehicleType": "w value for vecleType",
+			"MetaDatavin": "33456789",
+			"ToasterMessageSuccess": "SUCCESS",
+			"ToasterMessageSuccessReason": "Asset added successfully"
+		}
+	},
+	{
+		"createAssetstWithAllAutopopulatedMetadataKeys": {
+			"Country": "India",
+			"Area": "Kerala",
+			"LocationAddress": "Test",
+			"LocationGeolocationLatitude": "Test",
+			"LocationGeolocationLongitude": "Test",
+			"Customer": "ZF",
+			"BusinessUnit": "Vehicle",
+			"AssetName": "TEST12345",
+			"AssetType": "Electric bus",
+			"Manufacturer": "Fiat",
+			"Model": "Fiat 500",
+			"Brand": "TRW",
+			"SerialNumber": "test12345",
+			"SensorID": "123456789",
+			"Description": "Description for Asset",
+			"MetaDatalicensePlate": "value for licensePlate",
+			"MetaDataPropulsionType": "value for PropulsionType",
+			"MetaDatavehicleType": "value for vehicleType",
+			"MetaDatavin": "A0345679",
+			"MetaDatamaintain": "123",
+			"MetaDatafuel": " 123",
+			"MetaDataDisplacement": "123",
+			"ToasterMessageSuccess": "SUCCESS",
+			"ToasterMessageSuccessReason": "Asset added successfully",
+			"PassengerCar": "Passenger car"
+		}
+	},
+	{
+		"createAssetstWithMandatoryAutopopulatedMetadataKeys": {
+			"Country": "India",
+			"Area": "Kerala",
+			"LocationAddress": "Test",
+			"LocationGeolocationLatitude": "Test",
+			"LocationGeolocationLongitude": "Test",
+			"Customer": "ZF",
+			"BusinessUnit": "Vehicle",
+			"AssetName": "TEST12345",
+			"AssetType": "Bus",
+			"Manufacturer": "Fiat",
+			"Model": "Fiat 500",
+			"Brand": "TRW",
+			"SerialNumber": "test12345",
+			"SensorID": "123456789",
+			"Description": "Description for Asset",
+			"MetaDatalicensePlate": "Tewst value for licensePlate",
+			"MetaDataPropulsionType": "Twt value for PropulsionType",
+			"MetaDatavehicleType": "value for vehicleType",
+			"MetaDatavin": "33456790",
+			"MetaDatavehicleManufacturer": "value of Manufacturer ",
+			"MetaDatavehicleModel": " value of model",
+			"MetaDatavehicleProducer": "value of Producer",
+			"ToasterMessageSuccess": "SUCCESS",
+			"ToasterMessageSuccessReason": "Asset added successfully"
+		}
+	},
+	{
+		"verifyVehicleAssetstWithMandatoryAutopopulatedMetadataKeys": {
+			"Country": "India",
+			"Area": "Kerala",
+			"LocationAddress": "Test",
+			"AssetName": "MandatoryAutopopulatedMetadata",
+			"AssetType": "Bus",
+			"MetaDatalicensePlate": "License Plate",
+			"MetaDataPropulsionType": "Fuel Type/Propulsion Type",
+			"Transmission": "Transmission",
+			"MetaDatavin": "vin",
+			"PassengerCar": "Passenger car",
+			"Model": "Model"
+		}
+	},
+	{
+		"TCO7CreateAssetstWithActions": {
+			"Action": "activate",
+			"Country": "India",
+			"Area": "Kerala",
+			"LocationAddress": "Test",
+			"LocationGeolocationLatitude": "Test",
+			"LocationGeolocationLongitude": "Test",
+			"Customer": "ZF",
+			"BusinessUnit": "Vehicle",
+			"AssetName": "TEST12345",
+			"AssetType": "Bus",
+			"Manufacturer": "Fiat",
+			"Model": "Fiat 500",
+			"Brand": "TRW",
+			"SerialNumber": "test12345",
+			"SensorID": "123456789",
+			"Description": "Description for Asset",
+			"MetaDatalicensePlate": "Test value for licensePlate",
+			"MetaDataPropulsionType": "Test value for PropulsionType",
+			"MetaDatavehicleType": "Test value for vehicleType",
+			"MetaDatavin": "12345678",
+			"ToasterMessageSuccess": "SUCCESS",
+			"ToasterMessageSuccessReason": "Asset added successfully",
+			"GATEWAYType": "Type"
+		}
+	},
+	{
+		"TCO8editExistAssetDetails": {
+			"AssetName": "Test12345",
+			"Country": "Czech Republic",
+			"Area": "Pilsen",
+			"LocationAddress": "location updated",
+			"LocationGeolocationLatitude": "Test",
+			"LocationGeolocationLongitude": "Test",
+			"Customer": "ZF",
+			"BusinessUnit": "Vehicle",
+			"UpdatedAssetName": "TEST12345678",
+			"AssetType": "Bus",
+			"Manufacturer": "Fiat",
+			"Model": "Fiat 500",
+			"Brand": "TRW",
+			"SerialNumber": "test12345",
+			"SensorID": "123456789",
+			"Description": "Description for Asset",
+			"MetaDatalicensePlate": "Test value for licensePlate",
+			"MetaDataPropulsionType": "Test value for PropulsionType",
+			"MetaDatavehicleType": "Test value for vehicleType",
+			"MetaDatavin": "23456789",
+			"ToasterMessageSuccess": "SUCCESS",
+			"ToasterMessageSuccessReason": "Asset updated successfully",
+			"GATEWAYType": "Type"
+		}
+	},
+	{
+		"TCO9EditAssetstActions": {
+			"Action": "deactivate",
+			"Country": "India",
+			"Area": "Kerala",
+			"LocationAddress": "Test",
+			"LocationGeolocationLatitude": "Test",
+			"LocationGeolocationLongitude": "Test",
+			"Customer": "ZF",
+			"BusinessUnit": "Vehicle",
+			"AssetName": "Test12345",
+			"AssetType": "Bus",
+			"Manufacturer": "Fiat",
+			"Model": "Fiat 500",
+			"Brand": "TRW",
+			"SerialNumber": "test12345",
+			"SensorID": "123456789",
+			"Description": "Description for Asset",
+			"MetaDatalicensePlate": "Test value for licensePlate",
+			"MetaDataPropulsionType": "Test value for PropulsionType",
+			"MetaDatavehicleType": "Test value for vehicleType",
+			"MetaDatavin": "13567890",
+			"ToasterMessageSuccess": "SUCCESS",
+			"ToasterMessageSuccessReasonAction": "Action updated",
+			"ToasterMessageSuccessReason": "Asset updated successfully"
+		}
+	},
+	{
+		"TCO3OperatorHasNoAccess": {
+			"AssetName": "TEST12345",
+			"ToasterMessageFailed": "Access Denied",
+			"ToasterMessageFailedReason": "User does not have the privilege to access this functionality."
+		}
+	},
+	{
+		"CreateChildAssettWithAllFeilds": {
+			"Country": "India",
+			"Area": "Kerala",
+			"LocationAddress": "Test",
+			"LocationGeolocationLatitude": "Test",
+			"LocationGeolocationLongitude": "Test",
+			"Customer": "ZF",
+			"BusinessUnit": "Vehicle",
+			"AssetName": "TEST12345",
+			"AssetType": "BASIC_ASSET_TYPE",
+			"Manufacturer": "Fiat",
+			"Model": "Fiat 500",
+			"Brand": "TRW",
+			"SerialNumber": "TEST12345",
+			"SensorID": "12245678977",
+			"MetaDatavin": "23476009",
+			"Description": "Description for Asset",
+			"ToasterMessageSuccess": "SUCCESS",
+			"ToasterMessageSuccessReason": "Asset added successfully"
+		}
+	},
+	{
+		"executeActionWithoutParamater": {
+			"Country": "India",
+			"Area": "Kerala",
+			"LocationAddress": "Test",
+			"LocationGeolocationLatitude": "Test",
+			"LocationGeolocationLongitude": "Test",
+			"Customer": "ZF",
+			"BusinessUnit": "Vehicle",
+			"AssetName": "Action Without Paramater",
+			"AssetType": "BASIC_ASSET_TYPE",
+			"Manufacturer": "Fiat",
+			"Model": "Fiat 500",
+			"Brand": "TRW",
+			"SerialNumber": "TEST12345",
+			"SensorID": "12245678977",
+			"Description": "Description for Asset",
+			"ToasterMessageSuccess": "SUCCESS",
+			"ToasterMessageSuccessReasonAsset": "Asset added successfully",
+			"ToasterMessageSuccessReasonAction": "Action updated"
+		}
+	},
+	{
+		"executeActionWithParamater": {
+			"Country": "India",
+			"Area": "Kerala",
+			"LocationAddress": "Test",
+			"LocationGeolocationLatitude": "Test",
+			"LocationGeolocationLongitude": "Test",
+			"Customer": "ZF",
+			"BusinessUnit": "Vehicle",
+			"AssetName": "Action Without Paramater",
+			"AssetType": "BASIC_ASSET_TYPE",
+			"Manufacturer": "Fiat",
+			"Model": "Fiat 500",
+			"Brand": "TRW",
+			"SerialNumber": "TEST12345",
+			"SensorID": "12245678977",
+			"Description": "Description for Asset",
+			"ToasterMessageSuccess": "SUCCESS",
+			"ToasterMessageSuccessReasonAction": "Action updated"
+		}
+	},
+	{
+		"fieldValidationsMandatoryFieldVin": {
+			"Country": "India",
+			"Area": "Kerala",
+			"LocationAddress": "Test",
+			"LocationGeolocationLatitude": "Test",
+			"LocationGeolocationLongitude": "Test",
+			"Customer": "ZF",
+			"BusinessUnit": "Vehicle",
+			"AssetName": "TEST12345",
+			"AssetType": "Electric bus",
+			"Manufacturer": "Fiat",
+			"Model": "Fiat 500",
+			"Brand": "TRW",
+			"SerialNumber": "TEST12345",
+			"SensorID": "12245678977",
+			"Description": "Description for Asset",
+			"MetaDatalicensePlate": "Test value for licensePlate",
+			"MetaDataPropulsionType": "Test value for PropulsionType",
+			"MetaDatavehicleType": "Test value for vehicleType",
+			"MetaDatavin": "Belo",
+			"MetaDatavin1": "Above12digit",
+			"MetaDatavin2": "Validdat",
+			"ToasterMessageFailed": "Failed",
+			"ToasterMessageFailedReason": "Field 'vin' doesn't have valid length (17 or 9-12)",
+			"ToasterMessageSuccess": "SUCCESS",
+			"ToasterMessageSuccessReason": "Asset added successfully"
+		}
+	},
+	{
+		"createAssetWithoutMandatoryInput": {
+			"LocationAddress": "Mandatory Test",
+			"AssetName": "Mandatorydata",
+			"AssetType": "Bus",
+			"MetaDatalicensePlate": "Test value for licensePlate",
+			"MetaDataPropulsionType": "Test value for PropulsionType",
+			"MetaDatavehicleType": "Test value for vehicleType",
+			"MetaDatavin": "Validdata"
+		}
+	},
+	{
+		"addSingleGatewayWithAllValidInputs": {
+			"GatewayName": "SingleGateway1",
+			"GatewayType": "Actia",
+			"Model": "ECU-VK300",
+			"MACID": "b9:27:6b:dc:3c",
+			"SerialNumber": "4CE0460DDF55F",
+			"SIMNumber": "89148000000745800009",
+			"CustomerName": "Volvo",
+			"CustomerCountry": "India",
+			"CustomerArea": "Delhi",
+			"BusinessUnit": "IOT",
+			"Operator": "Beta",
+			"Description": "Description for Single Gateway 1",
+			"MetaDatakey": "key1",
+			"MetaDatavalue": "value1",
+			"UploadCertificate": "\\src\\main\\resources\\testdata\\Certificates\\Single\\devtestdev12_cert.pem",
+			"ToasterMessageFailed": "Failed",
+			"ToasterMessageSuccess": "SUCCESS",
+			"ToasterMessageSuccessReason": "Gateway added succesfully"
+		}
+	},
+	{
+		"addSingleGatewayWithMacIDAlreadyExists": {
+			"GatewayName": "Test2",
+			"GatewayType": "Advantech",
+			"Model": "Version 1",
+			"MACID": "b9:27:6b:dc:3c:q8",
+			"SerialNumber": "4E0460D0DFBCF",
+			"SIMNumber": "891480000045800000",
+			"CustomerName": "Honda",
+			"CustomerCountry": "India",
+			"CustomerArea": "Delhi",
+			"BusinessUnit": "IOT",
+			"Operator": "Beta",
+			"Description": "Description for Single Gateway 2",
+			"MetaDatakey": "key4",
+			"MetaDatavalue": "value4",
+			"UploadCertificate": "\\src\\main\\resources\\testdata\\Certificates\\Single\\devtestdev18_cert.pem",
+			"ToasterMessageFailed": "Failed",
+			"ToasterMessageSuccess": "SUCCESS",
+			"ToasterMessageFailedReason": "Gateway with MacId b9:27:6b:dc:3c:q8 already exists",
+			"ToasterMessageSuccessReason": "SUCCESS"
+		}
+	},
+	{
+		"addSingleGatewayWithCertificateAlreadyExists": {
+			"GatewayName": "GatewayWithCertificateAlreadyExists",
+			"GatewayType": "Advantech",
+			"Model": "Version 1",
+			"MACID": "11:w3:ee:32:sd",
+			"SerialNumber": "4QQ09DYYCF",
+			"SIMNumber": "191481220550",
+			"CustomerName": "Honda",
+			"CustomerCountry": "India",
+			"CustomerArea": "Delhi",
+			"BusinessUnit": "IOT",
+			"Operator": "Beta",
+			"Description": "Description for Single Gateway 2",
+			"MetaDatakey": "key001",
+			"MetaDatavalue": "value001",
+			"UploadCertificate": "\\src\\main\\resources\\testdata\\Certificates\\Single\\devtestdev9_cert.pem",
+			"ToasterMessageFailed": "Failed",
+			"ToasterMessageSuccess": "SUCCESS",
+			"ToasterMessageFailedReason": "Certificate is already in use !",
+			"ToasterMessageSuccessReason": "SUCCESS"
+		}
+	},
+	{
+		"addSingleGatewayWithMandatoryFields": {
+			"GatewayName": "Test3",
+			"GatewayType": "Advantech",
+			"Model": "Version 2",
+			"MACID": "fb:b9:4s:ef:cb:dd",
+			"CustomerName": "Honda",
+			"CustomerCountry": "India",
+			"CustomerArea": "Delhi",
+			"UploadCertificate": "\\src\\main\\resources\\testdata\\Certificates\\Single\\devtestdev11_cert.pem",
+			"ToasterMessageFailed": "Failed",
+			"ToasterMessageSuccess": "SUCCESS",
+			"ToasterMessageFailedReason": "Certificate is already in use !",
+			"ToasterMessageSuccessReason": "Gateway added succesfully"
+		}
+	},
+	{
+		"addSingleGatewayWithOutMandatoryFields": {
+			"GatewayName": "Test2",
+			"GatewayType": "Advantech",
+			"Model": "Version 1",
+			"MACID": "fb:b9:4c:ef:cb:dd",
+			"SerialNumber": "4CE00D0DFECF",
+			"SIMNumber": "89148000000745890000",
+			"CustomerName": "Honda",
+			"CustomerCountry": "India",
+			"CustomerArea": "Delhi",
+			"BusinessUnit": "IOT",
+			"Operator": "Beta",
+			"UploadCertificate": "\\src\\main\\resources\\testdata\\Certificates\\Single\\devtestdev11_cert.pem"
+		}
+	},
+	{
+		"AddMultipleGatewayNewRoot": {
+			"CreateEnrollmentGroup": "Group1",
+			"UploadCA": "\\src\\main\\resources\\testdata\\Certificates\\Single\\devtestdev7_cert.pem",
+			"UploadGatewayDeatils": "\\src\\main\\resources\\testdata\\MultipleGatewaySpreadsheets\\Test_Provisioning_GatewayDetails_New.xlsx",
+			"ToasterMessageFailed": "Failed",
+			"ToasterMessageSuccess": "SUCCESS"
+		}
+	},
+	{
+		"AddMultipleGatewayWithInvalid": {
+			"CreateEnrollmentGroup": "Group1",
+			"UploadCA": "\\src\\main\\resources\\testdata\\Certificates\\Single\\devtestdev7_cert.pem",
+			"UploadGatewayDeatils": "\\src\\main\\resources\\testdata\\MultipleGatewaySpreadsheets\\Bulk_Provisioning_GatewayDetails_WithoutGatewayName.xlsx",
+			"ToasterMessageFailed": "Failed",
+			"ToasterMessageSuccess": "SUCCESS"
+		}
+	},
+	{
+		"AddMultipleGatewayNewIntermediate": {
+			"CreateEnrollmentGroup": "Group1",
+			"UploadCA": "\\src\\main\\resources\\testdata\\Certificates\\Single\\devtestdev7_cert.pem",
+			"UploadGatewayDeatils": "\\src\\main\\resources\\testdata\\MultipleGatewaySpreadsheets\\Bulk_Provisioning_GatewayDetails_Intermediate_New.xlsx",
+			"ToasterMessageFailed": "Failed",
+			"ToasterMessageSuccess": "SUCCESS"
+		}
+	},
+	{
+		"addMultipleGatewayWithoutMandatoryFields": {
+			"CreateEnrollmentGroup": "Group1",
+			"UploadCA": "\\src\\main\\resources\\testdata\\Certificates\\Single\\devtestdev7_cert.pem",
+			"UploadGatewayDeatils": "\\src\\main\\resources\\testdata\\MultipleGatewaySpreadsheets\\Test_Provisioning_GatewayDetails_New.xlsx",
+			"ToasterMessageFailed": "Failed",
+			"ToasterMessageSuccess": "SUCCESS"
+		}
+	},
+	{
+		"AddMultipleGatewayExisting": {
+			"SelectEnrollmentGroup": "sdsd",
+			"CAfilename": "devaug29intermediate",
+			"UploadGatewayDetails": "\\src\\main\\resources\\testdata\\MultipleGatewaySpreadsheets\\Bulk_Provisioning_GatewayDetails_Existing.xlsx",
+			"ToasterMessageFailed": "Failed",
+			"ToasterMessageSuccess": "SUCCESS"
+		}
+	},
+	{
+		"OperatorHasNoAccessToAddGateway": {
+			"ToasterMessageFailed": "Access Denied",
+			"ToasterMessageFailedReason": "User does not have the privilege to access this functionality."
+		}
+	},
+	{
+		"DisableAndEnableGateway": {
+			"SearchItem": "SingleGateway1",
+			"ToasterMessageEnabled": "Gateway Enabled",
+			"ToasterMessageSuccess": "SUCCESS",
+			"ToasterMessageDisabled": "Gateway Disabled"
+		}
+	},
+	{
+		"AddSoftware": {
+			"SoftwareNameInvalid": "#2",
+			"SoftwareName": "Ga",
+			"UploadPackagePath": "\\src\\main\\resources\\testdata\\Installable Packages\\mosquitto1.deb",
+			"UploadPackagePath1": "\\src\\main\\resources\\testdata\\Installable Packages\\mosquitto1.deb",
+			"UploadInvalidPackagePath": "\\src\\main\\resources\\testdata\\Installable Packages\\InvalidCertificate.txt",
+			"PackageName": "InvalidCertificate.txt",
+			"UploadErrorMsg": "Id is blank",
+			"UploadDeviceNotFoundError": "Error in IoT Hub IoT Hub not found! ErrorCode:DeviceNotFound;"
+		}
+	},
+	{
+		"validateDecommissionedGatewayStatus": {
+			"SearchValue": "Select",
+			"SearchValueAfterDecommisionselect": "Decommissioned"
+		}
+	},
+	{
+		"validateCommissionedGatewayStatus": {
+			"SearchValue": "Select",
+			"SearchValueAfterCommisionselect": "Commissioned"
+		}
+	},
+	{
+		"validatePreCommissionedGatewayStatus": {
+			"SearchValue": "Select",
+			"SearchValueAfterPrecommisionselect": "Pre-Commissioned"
+		}
+	},
+	{
+		"verifyClearSelectedOptionsInGatewayStatusSearchDropdown": {
+			"SearchValue": "Select"
+		}
+	},
+	{
+		"VerifyDefaultGatewayStatus": {
+			"GatewayDefaultActual": "Gateway",
+			"ShowSearchValue": "Pre-Commissioned, Commissioned"
+		}
+	},
+	{
+		"verifySelectAllOptionInGatewayStatusSearchDropdown": {
+			"SearchValue1": "Select",
+			"SearchValueAfterSearch": "3 items selected"
+		}
+	},
+	{
+		"verifySearchOptionsSearchDropdown": {
+			"GatewayActual1": "Gateway",
+			"GatewayActual2": "Customer",
+			"GatewayActual3": "Type",
+			"GatewayActual4": "Country",
+			"GatewayActual5": "Area",
+			"GatewayActual6": "Status"
+		}
+	},
+	{
+		"verifyClearDatesFromDatePicker": {
+			"SearchValue1": "Select",
+			"SearchValueAfterSearch": "3 items selected"
+		}
+	},
+	{
+		"GatewayDetails": {
+			"GatewayDetails": "Gateway Details",
+			"Model": "Model",
+			"MACID": "MAC ID",
+			"SimNumber": "Sim Number",
+			"SerialNumber": "Serial Number",
+			"GatewayCertificate": "Gateway Certificate",
+			"EnrollmentGroup": "Enrollment Group",
+			"CustomerDetails": "Customer Details",
+			"BusinessUnit": "Business Unit",
+			"Operator": "Operator",
+			"AdditionalDetails": "Additional Details",
+			"Description": "Description",
+			"Metadata": "Metadata",
+			"GatewayLifecycle": "Gateway Lifecycle",
+			"PreCommissioned": "Pre-Commissioned",
+			"Commissioned": "Commissioned",
+			"Decommissioned": "Decommissioned"
+		}
+	},
+	{
+		"AssignAdministrator": {
+			"email": "venkata@test.com",
+			"email1": "venkata@mc.com"
+		}
+	},
+	{
+		"Fleet": {
+			"fleetname": "AutoTest",
+			"fleetnamenew": "Sam1",
+			"infotext": "Adding Vehicles",
+			"infotextnew": "Adding Vehicles1",
+			"vehicle": "test",
+			"vehicle1": "Test Vehicle2",
+			"vehiclenew": "CZV 6232",
+			"vehiclenew1": "JD 6130R",
+			"ToasterMessageSuccessReason": "Fleet was created successfully."
+		}
+	},
+	{
+		"GatewayHomePage": {
+			"Show": "Show",
+			"Precommissioned": "Pre-Commissioned, Commissioned",
+			"Search": "Search",
+			"From": "From",
+			"To": "To",
+			"Gateway": "From",
+			"AddGateway": "Add Gateway",
+			"GatewayName": "Gateway Name",
+			"Customer": "Customer",
+			"Type": "Type",
+			"Country": "Country",
+			"Area": "Area",
+			"LastUpdated": "Last Updated",
+			"Status": "Status",
+			"Connectivity": "Connectivity",
+			"MoreInfo": "More Info"
+		}
+	},
+	{
+		"ManageClientHeader": {
+			"title": "Manage Clients",
+			"Client": "Client",
+			"Area": "Area",
+			"Country": "Country",
+			"Telephone": "Telephone",
+			"CreatedDateTime": "Created Date & Time",
+			"ClientStatus": "Client Status"
+		}
+	},
+	{
+		"ClientDetails": {
+			"clientName": "TestSubClient",
+			"email": "venkata@test.com",
+			"street": "bridge street",
+			"information": "ZF Automation",
+			"streetNumber": "2512",
+			"telephone": "12345678912345",
+			"postCode": "9876",
+			"webSite": "www.howtodo.com",
+			"country": "USA",
+			"fax": "12345678978999",
+			"ToasterMsg": "Unauthorized user",
+			"clientNameEmpty": "           ",
+			"clientNameSpecialChar": "Client123#%%^",
+			"clientNameWithAbove32Char": "Client Name with more than 32 characters",
+			"clientNameErrorMsg": "The name contains unsupported characters. Please, enter valid name.",
+			"clientEmptyEmail": "     ",
+			"clientInvalidEmail": "!@#$%^&*()",
+			"clientEmailErrorMsg": "The e-mail address is not valid. Please enter a valid e-mail address.",
+			"clientTelephoneEmpty": "      ",
+			"clientTelephoneSpecialChar": "#%%^"
+		}
+	},
+	{
+		"ClientMoreDetails": {
+			"clientName": "Openmatics 1 Test",
+			"email": "assdsdsf@gmail.com",
+			"telephone": "+666 6666 6666 666",
+			"street": "123",
+			"streetNumber": "street11112",
+			"country": "Germany",
+			"fax": "12"
+		}
+	},
+	{
+		"EditSingleGateway": {
+			"EditGatewayName": "SingleGateway1",
+			"GatewayName": "testA111",
+			"GatewayType": "Advantech",
+			"Model": "Version 2",
+			"SerialNumber": "testA3",
+			"SIMNumber": "testA4",
+			"CustomerName": "testA5",
+			"CustomerCountry": "India",
+			"CustomerArea": "Delhi",
+			"BusinessUnit": "testB1",
+			"Operator": "testB2",
+			"Description": "testB3",
+			"MetaDatakey1": "testMK1",
+			"MetaDatavalue1": "testMV1",
+			"MetaDatakey2": "testMK2",
+			"MetaDatavalue2": "testMV2",
+			"MetaDatakey3": "testMK3",
+			"MetaDatavalue3": "testBMV3",
+			"MetaDatakey4": "testMK3",
+			"MetaDatavalue4": "testBMV3",
+			"MetaDatakey5": "testMK3",
+			"MetaDatavalue5": "testBMV3",
+			"MetaDatakey6": "testMK3",
+			"MetaDatavalue6": "testBMV3",
+			"UploadCertificate": "C:\\ZF\\ZF_Latestcode\\zf_testing\\zf-automation\\zf-web\\src\\main\\resources\\testdata\\Certificates\\Single\\devtestdev10_cert.pem",
+			"ToasterMsgSuccess": "SUCCESS"
+		}
+	},
+	{
+		"ShowDropdownGateway": {
+			"GatewayName": "testA111",
+			"GatewayType": "Advantech",
+			"CustomerName": "Volvo",
+			"CustomerCountry": "India",
+			"CustomerArea": "Delhi",
+			"status": "Pre-Commissioned",
+			"Operator": "testB2"
+		}
+	},
+	{
+		"GatewayLifeCycle": {
+			"ShowGateway1": "Pre-Commissioned",
+			"ShowGateway2": "Commissioned",
+			"ShowGateway3": "Decommissioned",
+			"ShowGateway4": "Pre-Commissioned, Decommissioned",
+			"ShowGateway5": "Pre-Commissioned, Commissioned",
+			"ShowGateway6": "Commissioned, Decommissioned",
+			"ShowGateway7": "3 items selected",
+			"ShowGateway8": "Select"
+		}
+	},
+	{
+		"ColumnVerification": {
+			"GatewayColumn0": "Gateway Name",
+			"GatewayColumn1": "Customer",
+			"GatewayColumn2": "Type",
+			"GatewayColumn3": "Country",
+			"GatewayColumn4": "Area",
+			"GatewayColumn5": "Last Updated",
+			"GatewayColumn6": "Status",
+			"GatewayColumn7": "Connectivity",
+			"GatewayColumn8": "More Info"
+		}
+	},
+	{
+		"EditSingleGateway": {
+			"SortCategory1": "Gateway",
+			"SortCategory2": "Customer",
+			"SortCategory3": "Type",
+			"SortCategory4": "Country",
+			"SortCategory5": "Area",
+			"SortCategory6": "Status"
+		}
+	},
+	{
+		"OpenmaticClients": {
+			"Openmatic1": "Openmatics 1",
+			"Openmatic2": "Openmatics 2"
+		}
+	},
+	{
+		"VehiclesRoles": {
+			"Vehicle": "Automat",
+			"VehicleToasterMessage": "Changes were saved successfully.",
+			"RoleToasterMessage": "Role updated successfully."
+		}
+	},
+	{
+		"privilegeToChangeThresholds": {
+			"SettingThresholdValue": "55",
+			"ToasterMsgSuccess": "Success",
+			"ToasterMsgSuccessReason": "Thresholds Settings were updated successfully"
+		}
+	},
+	{
+		"noPrivilegeToEditUser": {
+			"Name": "test user",
+			"ToasterMsgFailed": "Access denied",
+			"ToasterMsgSuccessReason": "Unsufficient privileges. Try to get privileges by your local administrator. If problem persists, contact our support.' is identified successfully"
+		}
+	},
+	{
+		"noPrivilegeToEditUserRole": {
+			"Name": "test user",
+			"UserRole": "test",
+			"ToasterMsgFailed": "Access denied",
+			"ToasterMsgSuccessReason": "Unsufficient privileges. Try to get privileges by your local administrator. If problem persists, contact our support.' is identified successfully"
+		}
+	},
+	{
+		"noPrivilegeToChangeThresholds": {
+			"Name": "testuser adminwithnothreshold",
+			"UserRole": "test",
+			"ToasterMsgFailed": "Access denied",
+			"ToasterMsgSuccessReason": "Unsufficient privileges. Try to get privileges by your local administrator. If problem persists, contact our support.' is identified successfully"
+		}
+	},
+	{
+		"noPrivilegeToEditAssets": {
+			"AssetName": "TEST12345",
+			"ToasterMessageFailed": "Access Denied",
+			"ToasterMessageFailedReason": "User does not have the privilege to access this functionality."
+		}
+	},
+	{
+		"checkDashboardOfUserwithOneClientAccess": {
+			"ToasterMessageFailed": "Access denied"
+		}
+	},
+	{
+		"mainteneceEditSavechange": {
+			"Maintenance_interval_time": "4",
+			"Maintenance_interval_km": "30",
+			"Oil_change_interval_time": "5",
+			"Oil_change_interval_km": "30",
+			"Inspection_interval_time": "5",
+			"Save_maintenance_success": "Save maintenance info success"
+		}
+	},
+	{
+		"clickHelpAndVerifyTabs": {
+			"IntelligentConnectivityExpMsg": "OPENMATICS is driven by a vision to connect the world intelligently for everybody; to make it safer, more convenient and sustainable. Whether through vehicle connectivity, electromobility or remote diagnostics, we develop telematics solutions while others have not even recognized the challenges yet. OPENMATICS is set to develop open, individual concepts that provide intelligent connectivity solutions in telematics, asset tracking, entertainment, diagnostics and engineering. These concepts will lead to the future of digital connectivity; a future in which each customer’s individual needs are addressed. OPENMATICS is dedicated to its vision of a perfectly connected world.",
+			"openForANewWorld": "Our vision is to live in an open world which is securely and intelligently connected. To achieve this, we develop connectivity solutions for the future: solutions that will drive digitization in industry, as well as globalization in logistics and trade. Our systems will enable new types of transport that support urbanization, save resources and benefit nature. With our open connectivity platform, we supply the best uniform standard for secure, flexible and reliable networking worldwide, without system or technology barriers. Our customers and partners can intelligently connect people and things around the world.",
+			"VehicleListandFilterP1": "The list of vehicles that are available – it is showing all vehicles visible for the currently logged in user. Vehicles are sorted based on latest response – the one with the newest data is first. Vehicles inactive for more than 5 minutes are shown in grey colour.",
+			"VehicleListandFilterP2": "Vehicle is selected and shown on map by clicking on it in the vehicle list.",
+			"VehicleListandFilterP3": "Time information in the right corner of every vehicle indicates the time of last sent message.",
+			"VehicleListandFilterP4": "Yellow exclamation mark indicates a reached threshold – warning.",
+			"VehicleListandFilterP5": "Red exclamation mark indicates that error appears in the vehicle.",
+			"VehicleListandFilterP6": "Green check indicates no present warnings or errors.",
+			"VehicleListandFilterP7": "Blue eye allows to go directly to the Vehicle detail view.",
+			"VehicleListandFilterP8": "Filter allows full-text search within the vehicle license plates, selection of fleets and particular states of vehicles. Clear filters with one click on the “Clear filters” button. Filter results are applied to the list of vehicles, to the map view and to the 'clickable' KPIs.",
+			"KPIP1": "The Key Performance Indicators are showing the overall performance of the fleet and also the current status. It is configurable, which KPIs will be shown.",
+			"KPIP2": "There are two types of KPIs:",
+			"KPIP3": "Daily status overview KPIs: These KPIs reflect the overall status of the fleet. Data for these calculations are gathered for all vehicles for the current day – since midnight.",
+			"KPIP4": "Current vehicle status KPIs: These KPI reflect the current state of vehicles and show amount of vehicles that fulfil some particular criteria like critical speed, errors, etc. After clicking on such KPI, vehicles on map are filtered. More than one KPI can be selected at a time.",
+			"OVERVIEW_P1": "All or filtered vehicles are shown in a form of coloured pins on map with shown licence plate number. Colours of the pin indicate:",
+			"OVERVIEW_P2": "Green: Vehicle doesn't contain any errors or warnings AND SoC/Fuel level larger than 20%.",
+			"OVERVIEW_P3": "Yellow: Vehicle has at least one active threshold warning (and no active error) OR SoC larger than 10% OR Fuel level less or equal than 20%.",
+			"OVERVIEW_P4": "Red: Vehicle has at least one active error OR SoC less or equal than 10%.",
+			"OVERVIEW_P5": "For electric vehicles, a lightning icon appears when the vehicle is being charged.",
+			"OVERVIEW_P6": "After clicking on the vehicle pin, a pop-up with detailed information about the vehicle appears. From that pop-up is possible to go to the Vehicle detail view by clicking on the “Details” button.",
+			"OVERVIEW_P7": "In the upper-right corner are components for expanding the map over the whole width of the screen and for following selected vehicles.",
+			"VH_DETAIL_P1": "In this view the detailed information about the selected vehicle are shown. Data are refreshed every 2 seconds.",
+			"VH_DETAIL_P2": "TellTales: Icons of selected tell tales reflect the currently lit dashboard lights in the vehicle.",
+			"VH_DETAIL_P3": "Detailed info: Particular important signal values are shown in the left part of the detail view.",
+			"VH_DETAIL_P4": "GUI elements: For showing current values of the most important values like speed, RPM, coolant temperature, fuel level, ad blue level or for example State of charge for electric vehicles.",
+			"VH_DETAIL_P5": "Map: Offers the most recent view of the vehicle position and also shows line of the route where the vehicle went.",
+			"TECH_OVERVIEW_P1": "Second tab in the vehicle detail view contains live streaming of other important vehicle data. Data are refreshed every 2 seconds. Not available signals are shown in light-grey colour and can be hidden by the “Hide unavailable signals” check-box.",
+			"KPI_SETTINGS_P1": "In the KPI settings screen it is possible to select up to 8 KPIs – mix from the “Daily status overview KPIs” and “Current vehicle status KPIs” ones. After pressing the “Save Changes” button, the selected KPIs will appear on the main Dashboard view.",
+			"KPI_SETTINGS_P2": "KPIs can be described by 3 groups - suitable for different vehicle types.",
+			"KPI_SETTINGS_P3": "Combustion: Suitable only for the combustion vehicles – only these vehicles are counted in case of mixed fleet. E.g.: Fuel consumption, Engine hours.",
+			"KPI_SETTINGS_P4": "Electric: Suitable only for the electric vehicles / charging stations – only these vehicles are counted in case of mixed fleet. E.g.: Total CO2 saved, Critical state of charge.",
+			"KPI_SETTINGS_P5": "Overall: Suitable for all vehicles – all vehicles are taken into account in case of mixed fleet. E.g.: Fleet status, Driven distance, Critical speed.",
+			"BackOffice_Fleet_textP1": "Fleet is an option of virtual grouping of vehicles of all vehicles that belong to the client. Vehicles assigned to fleets will be grouped to them in every other Portal application - for example in vehicle list in Dashboard. There are few rules for fleet creation, editing and also some hints:",
+			"BackOffice_Fleet_textP2": "One vehicle can belong to one fleet only. This means that if you insert a particular vehicle to a fleet, it will be automatically removed from the fleet it was assigned to before.",
+			"BackOffice_Fleet_textP3": "Fleets must have unique names. The application will not allow creating two fleets with the same name.",
+			"BackOffice_Fleet_textP4": "Default fleet serves as a stock for vehicles that are not assigned to any other fleet. If some not-empty fleet is deleted, all vehicles will fall to the Default fleet. This fleet cannot be deleted even if it is empty.",
+			"BackOffice_Fleet_textP5": "Visibility for sub-clients: Fleets are only a view to vehicles for the current client. In case of sharing vehicles between clients, fleets are not duplicated and each client can divide vehicles to fleets in a different way.",
+			"BackOffice_Create_Fleet_textP1": "Creating of a fleet is initiated by button “Create new fleet”. This opens a wizard with three steps that guide you through the fleet creation process.",
+			"BackOffice_Create_Fleet_textP2": "Basic data: fill in the fleet name (must be unique) and optionally also the description (maximally 256 characters).",
+			"BackOffice_Create_Fleet_textP3": "Assign vehicles: here you can assign vehicles to the newly created fleet. It can be done by pressing button or using drag and drop. To remove a vehicle, use use button – the vehicle will be returned back to the fleet where it was originally placed.",
+			"BackOffice_Create_Fleet_textP4": "Create fleet: confirms the creation of the new fleet with overview of assigned vehicles.",
+			"Backoffice_Edit_Delete_text1": "Three basic functionalities allow simple operations with fleets:",
+			"Backoffice_Edit_Delete_text2": "Delete: will delete the selected fleet, vehicles from it will be automatically assigned to the Default fleet.",
+			"Backoffice_Edit_Delete_text3": "Edit vehicle list: allows moving vehicles between the selected fleet and rest of fleets.",
+			"Backoffice_Edit_Delete_text4": "Edit data: reopens the initial wizard – it is a place to edit fleet completely: change name, description and also assignment of vehicles.",
+			"Vehicle_Management_vehicle_txt1": "Vehicle management provides overview of all vehicles of the client and allows user to edit vehicle parameters. The filtering option offers full-text search within the vehicle license plates and filtering by fleets.",
+			"Vehicle_Management_vehicle_txt2": "Jump to vehicle detail in Dashboard: by clicking on the eye icon in the upper right corner, vehicle detail view in Dashboard is opened for the current vehicle.",
+			"VehicleMgmnt_editing vehicle_txt1": "It is possible to edit various parameters of vehicle: Vehicle type, Fuel type, Fuel tank volume, PTO (if vehicle has a PTO), Next Maintenance date.",
+			"VehicleMgmnt_editing vehicle_txt2": "Vehicle type: selection of vehicle type should be done correctly because it influences a lot of features in applications. For example the Vehicle detail in Dashboard shows different information for electric and combustion vehicles (like State of Charge vs. Fuel level, Fuel vs. Energy consumption, etc.).",
+			"VehicleMgmnt_editing vehicle_txt3": "Coming soon: possibility of editing of thresholds for vehicles will come soon – currently thresholds are saved in configuration files and can be edited only manually.",
+			"User_Management_user_txt1": "The user management offers an overview about existing users, possibility of searching using the filter functionality and allows to create new users for the current Client.",
+			"User_Management_user_txt2": "Coming soon:user roles will allow to set different user rights to different users and also allow to restrict visibility of assets.",
+			"User_Management_creatingUser_txt1": "Create new users for the current Client by entering the name, surname and e-mail address. The introduction e-mail with login information then arrives to the entered e-mail address.",
+			"User_Management_creatingUser_txt2": "Coming soon:possibility to create users also for sub-clients and enhancing the user information with options like telephone number, position, etc."
+		}
+	},
+	{
+		"validatePageTitle": {
+			"GatewayPageTitle": "ZF IoT PLATFORM",
+			"PortalTitle": "Openmatics portal"
+		}
+	},
+	{
+		"launchAllApplications": {
+			"Maintenance": "Maintenance",
+			"Trips": "Trips",
+			"Dashboard": "Dashboard",
+			"AddGateWay": "Add Gateway",
+			"Backoffice": "Backoffice",
+			"Help": "Help"
+		}
+	},
+	{
+		"C55138": {
+			"Crash": "crash",
+			"Style": "style",
+			"Colourcode": "rgb(0, 136, 206)"
+		}
+	},
+	{
+		"serviceBusIRIS": {
+			"clientId": "f4bf1ca1-2f17-4b80-b42f-0d6a13b0d410",
+			"secret": "ResVWywuDSeLC9/Kx7vN4zLjS3srLxKdnHemlGvMBGc=",
+			"tenant": "eb70b763-b6d7-4486-8555-8831709a784e",
+			"subscriptionId": "f889f019-873b-4c24-a776-bf10fc81df76",
+			"resourceGroupName": "HCO-IoT-CDO-Test",
+			"namespace": "Tauri-servicebus-cdo-1",
+			"connectionString": "Endpoint=sb://iris-servicebus-cdo-1.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=WTQkqxd50gCPzKFdt6o7LLAxBfrdDa9AwMwp4cwlhPo="
+		}
+	},
+	{
+		"_comment": "************************************ Service Catalog Automaiton ***************************************************",
+		"ServicecatalogRegisterationDetails": {
+			"Email": "abc.test@gmail.com",
+			"MobileNumber": "123456789",
+			"Street": "123456789",
+			"Postalcode": "123456789",
+			"Website": "www.test.com",
+			"AdditionalInfo": "123456789",
+			"SelectCountry": "Australia",
+			"UploadCertificate": "\\src\\main\\resources\\testdata\\ServiceCatalogImages\\testimage.png",
+			"RegistrationSuccess": "Registration Completed",
+			"WaitingForApprovalMessage": "Your account is awaiting for approval by service catalog admin"
+		}
+	},
+	{
+		"sqlserver": {
+			"SQLSERVERDRIVER": "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+			"SQLSERVERJDBC": "jdbc:sqlserver://",
+			"SQLSERVERHOSTTAURI": "tauri-dbserver-cdo-1.database.windows.net",
+			"SQLSERVERHOSTDAEDALUS": "daedalus-dbserver-cdo-1.database.windows.net",
+			"SQLSERVERPORT": "1433",
+			"SQLSERVERDATABASESERVICECATALOGTAURI": "tauri-servicecatalog-globaldb",
+			"SQLSERVERDATABASESERVICECATALOGDAEDALUS": "daedalus-servicecatalog-globaldb",
+			"SQLSERVERDATABASETAURI": "tauri-globalService-CDO",
+			"SQLSERVERUSERTAURI": "tauri@tauri-dbserver-cdo-1",
+			"SQLSERVERUSERDAEDALUS": "daedalus@daedalus-dbserver-cdo-1",
+			"SQLSERVERPASSWORD": "Operations01",
+			"RegistrationStatus": "select * from dbo.registration_request where client_info_id='tempValue'",
+			"RegistrationDetails": "select CLIENT_INFO_ID from client_info where email='tempValue'"
+		}
+	},
+	{
+		"mysql": {
+			"MYSQLDRIVER": "com.mysql.cj.jdbc.Driver",
+			"MYSQLJDBC": "jdbc:mysql://",
+			"MYSQLHOST": "localhost",
+			"MYSQLPORT": "3306",
+			"MYSQLDATABASE": "family",
+			"MYSQLUSER": "root",
+			"MYSQLPASSWORD": "admin"
+		}
+	},
+	{
+		"createproject": {
+			"PROJECTNAME": "auto",
+			"LOCATION": "Chennai",
+			"COSTCENTERCODE": "Automation123",
+			"PRIORITIZATIONCODE": "3306",
+			"DESCRIPTION_EB": "Automation description",
+			"EMAIL": "nagarjuna.alamuri@sasken.com",
+			"SUCESSMESSAGE": " Created Successfully ",
+			"USEREMAIL": "shaik.ansari@sasken.com",
+			"ADMINEMAIL": "nagarjuna.alamuri@sasken.com",
+			"GATEWAYMANAGEMENT": "Gateway Management",
+			"OTACAPABILITIES": "OTA Capabilities",
+			"ASSETMANAGEMENT": "Asset Management",
+			"ASSIGNEDTOTHE": "Assigned to the",
+			"SUCCESSFULLY": "Successfully"
+		}
+	},{"Assignservice":
+	{
+		"USERNAME": "divyalakshmi.govindan@sasken.com",
+		"GATEWAYMANAGEMENT":"Gateway Management",
+		"OTACAPABILITIES": "OTA Capabilities",
+		"ASSETMANAGEMENT": "Asset Management",
+		"ASSIGNEDTOTHE":" Assigned to the ",
+		"SUCCESSFULLY": " Successfully",
+		"SUBSCRIPTIONEXIST": "Subscription already exist"
+	}
+	}
+]

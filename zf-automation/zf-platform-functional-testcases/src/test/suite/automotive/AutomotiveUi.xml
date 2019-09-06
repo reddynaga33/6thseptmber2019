@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="AutomotiveUi" preserve-order="true">
+
+    <!-- Attribute "preserve-order=true" is essential for preservre order of test or suite how is written in xml. -->
+    <!---->
+    <listeners>
+        <listener class-name="com.openmatics.testinstrumentation.utils.testng.UiSuiteListener"/>
+    </listeners>
+
+
+    <test thread-count="1"  name="SendRtsDataMessagesDevice2Cloud">
+        <classes>
+            <class name="com.openmatics.test.functional.automotive.realtimedata.SendRtsDataMessagesDevice2CloudTest"/>
+        </classes>
+    </test>
+
+    <test thread-count="1"  name="SendRtsDataMessagesCloud2Device">
+        <classes>
+            <class name="com.openmatics.test.functional.automotive.realtimedata.SendRtsDataMessagesCloud2DeviceTest"/>
+        </classes>
+    </test>
+
+    <test thread-count="1"  name="LogonDashboardUiOpenTechnicalOverview" enabled="true">
+        <classes>
+            <class name="com.openmatics.test.functional.automotive.dashboard.ui.main.OpenVehicleTechnicalOverviewTest"/>
+        </classes>
+    </test>
+
+</suite>

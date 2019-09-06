@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="CreateClientInfrastructure" preserve-order="true">
+    <!-- Attribute "preserve-order=true" is essential for preserve order of test or suite how is written in xml. -->
+    <test thread-count="1"  name="CreateClientInfrastructure">
+        <groups>
+            <run>
+                <!-- if define include group here that you must giv annotation with group also on base class of test
+                <include name="CreateClient"/>
+                -->
+            </run>
+        </groups>
+
+        <packages>
+            <package name="com.openmatics.test.functional.platform.client.create" />
+        </packages>
+        <!---->
+        <!-- via classes can't restrict package -> will be loaded all classes from package
+        <classes>
+            <class name="com.openmatics.test.functional.platform.client.create.CreateClientTest"></class>
+        </classes>
+
+        <classes>
+            <class name="com.openmatics.test.functional.platform.client.create.CreateClientTest"></class>
+        </classes>
+        -->
+    </test>
+
+</suite>

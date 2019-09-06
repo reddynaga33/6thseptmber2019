@@ -1,0 +1,18 @@
+{
+  "name": "com.openmatics.dashboard.realtimedataservice.RealTimeDataMessage",
+  "version": "1.0.0",
+  "payload": {
+    "ts": "${timestamp}",
+    "data": [{
+      "signalCode": "19",
+      "value": "${longitude}"
+    }, {
+      "signalCode": "18",
+      "value": "${latitude}"
+    }, {
+      "signalCode": "61",
+      "value": "${speed}"
+    }
+    ]
+  }
+}

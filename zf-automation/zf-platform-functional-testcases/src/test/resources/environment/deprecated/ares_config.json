@@ -1,0 +1,91 @@
+{
+	"url": "https://dasht1-ares1.openmatics.com/",
+	"tenant": "DashboardTestAD.onmicrosoft.com",
+	"git": {
+		"repoUrl": "http://plnv00020.emea.zf-world.com:8808/cloud-infrasturcture/om-cloud.git",
+		"repoBranch": "ares-test"
+	},
+	"db": {
+		"host": "ares-db-server-1",
+		"name": "ares-global-service",
+		"user": "ares",
+		"password": "Openmatics1"
+	},
+	"services": {
+		"service-management-service": {
+			"servicePath": "global/service-management-service",
+			"aadId": "a6a002c8-c242-4350-bb73-020db1a27514",
+			"aadSecret": "BPGIErEhU1FKJXqLZa+y8Dx4ncNNDOR1RBN/3ce6XqI="
+		},
+		"client-management-service": {
+			"servicePath": "global/client-management-service",
+			"aadId": "9c139d56-9486-4acb-ae18-fe8163cf4bb6",
+			"aadSecret": "0FRRHLKUaqnTHTRjPa6Z4bUdYIUK3ihKyGs7Mj/5R3I="
+		},
+		"client-settings-service": {
+			"servicePath": "global/client-settings-service",
+			"aadId": "15c7e0c5-8ffa-42fc-95fe-e9a4b21d4c92",
+			"aadSecret": "ik8gwCDlWI2XL3g2fhjrUkD1rzAFRDVEpvoex+ZR2To="
+		},
+		"initiation-service": {
+			"servicePath": "global/initiation-service",
+			"aadId": "828d9520-18f2-4a84-ac0d-c89ad594a740",
+			"aadSecret": "jfxVaopCLJbupgU3axPMMkshEl9Pflk8QqA79R1kfGE=",
+			"applicationIdUri": "http://initiation-management-service"
+		},
+		"asset-management-service": {
+			"servicePath": "global/asset-management-service",
+			"aadId": "f95d20d1-6a37-4463-9a3d-1394cd4a707b",
+			"aadSecret": "K+2PonKVLp1pehbWo3R6CsPEc7ucBJwY5turHhQvcbs=",
+			"applicationIdUri": "http://asset-management-service"
+		},
+		"device-management-service": {
+			"servicePath": "global/device-management-service",
+			"aadId": "658be0aa-74a8-431a-865a-6fc4646d96bb",
+			"aadSecret": "l9l/SypkOUsmKVryALX8ckgP172vOE7kpLjQHgiqFbU=",
+			"applicationIdUri": "http://device-management-service",
+			"azureDevicesConnectionString": "HostName=ares-iot-1.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=ZeXpi0BVVyLI1wp79dxdtJNzTOjXTFjZWOWA3wNuJtk="
+		},
+		"real-time-data-service": {
+			"aadId": "b4f86bf2-7ff2-4647-a04b-20a39c6203fc",
+			"aadSecret": "tk2bdxt5yGWDI1vMnkZnFc7TX2pQ+uH3njSoAH9LgxI="
+		},
+		"authorization-provider-service": {
+			"aadId": "5ef304d0-03de-4471-a181-533dce5e7468",
+			"aadSecret": "GY8kRxzcaatdjO67MrEapnvshwROHPMTnkWW8mPnSsU=",
+			"applicationIdUri": "http://authorization-provider-service"
+		},
+		"backoffice-service": {
+			"aadId": "65c74835-f686-4179-a8f9-e7e23f2a5792",
+			"aadSecret": "KGsPiFgpd5OqXKTS0HvlhkiHhdZUyOLGkct+UyBDGE0="
+		},
+		"dashboard-service": {
+			"aadId": "6bce3717-8f9b-4699-8da9-5f71a33645f5",
+			"aadSecret": "x2GeGVEfQE1sjVbIAEQ1xBSv/kSrajyTOhoQ1iafvzU="
+		},
+		"energy-consumption-service": {
+			"aadId": "eb135820-56b5-46e2-a26d-996dbc30097e",
+			"aadSecret": "uCUkOpriy+7Pd1BihCLlxHqSzFpFlz7XncvaZDp0ztY="
+		},
+		"fleet-management-service": {
+			"aadId": "6e47b0d5-55de-4563-afa8-809c93563bfd",
+			"aadSecret": "WczAUmF/6GRWaM2cRQgur5uX7RMAOakiWez70qWC6fA="
+		},
+		"notification-service": {
+			"aadId": "3e39c281-f9e8-4588-abf2-89045275e637",
+			"aadSecret": "99x294XfYnWksfmsDvkv76V7fntHRYs8l1vtVgZ+A/Y="
+		},
+		"fuel-consumption-service": {
+			"aadId": "af7fb106-3439-41e0-8e96-938210f9bb6e",
+			"aadSecret": "wvE/BmHR1htZBJ+4pfe7kUe52HKb+UwQEN7ATviFeQI="
+		},
+		"trip-data-service": {
+			"aadId": "0a03a6cd-e182-42b0-94c5-b85ab5c22115",
+			"aadSecret": "tkGy+wCDxBb3KticHgT9NMgKODKcivjcCjFiCcQbd1E="
+		},
+		"trips-service": {
+			"aadId": "50a92bb9-e9df-4386-a506-3ec1a6b94ced",
+			"aadSecret": "12qq3DnuDBAyAHTNshND1evrI9D6iHNvKQWScJptdtY="
+		}
+	}
+}

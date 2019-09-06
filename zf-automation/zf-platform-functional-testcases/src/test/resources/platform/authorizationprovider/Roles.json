@@ -1,0 +1,26 @@
+[
+  {
+  "code": "NEW_AUTOMATED_TEST_MANAGER_00",
+  "name": "Automated test manager",
+  "description": "Automated test manager description",
+  "privilegesIds": [],
+  "usersIds": [],
+  "groupsIds": []
+  },
+  {
+    "code": "NEW_AUTOMATED_TEST_MANAGER_02",
+    "name": "Automated test manager",
+    "description": "Automated test manager description - now not using",
+    "privilegeIds": [],
+    "userIds": [],
+    "groupsIds": []
+  },
+  {
+    "code": "NEW_AUTOMATED_TEST_MANAGER_03",
+    "name": "Automated test manager 03",
+    "description": "Automated test manager description - now not using",
+    "privileges": [],
+    "users": [],
+    "groups": []
+  }
+]

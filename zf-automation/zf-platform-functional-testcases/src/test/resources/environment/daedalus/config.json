@@ -1,0 +1,351 @@
+
+{
+    "tenant": "d630d990-458e-402d-bbe5-56b10bbb2cb6",
+    "url": "https://backend-daedalus.openmatics.com/",
+    "openshift": {
+        "hostName":"https://daedalus.openmatics.com",
+        "saToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJkYWVkYWx1cyIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VjcmV0Lm5hbWUiOiJzZXJ2aWNlLW1hbmFnZW1lbnQtc2VydmljZS10b2tlbi1qZDVrNSIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50Lm5hbWUiOiJzZXJ2aWNlLW1hbmFnZW1lbnQtc2VydmljZSIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50LnVpZCI6IjViM2JjMzljLThlNzEtMTFlOC05YzdkLTAwMGQzYTI4OGUzYiIsInN1YiI6InN5c3RlbTpzZXJ2aWNlYWNjb3VudDpkYWVkYWx1czpzZXJ2aWNlLW1hbmFnZW1lbnQtc2VydmljZSJ9.rxv01qgT_8KHAk5laA8HaMIqsHJIHhsRYLyFMShUimWDjOvbS2-BnOBNlC_0g74tuo10z9D3OdvGzasPbNovcuvELElbjXSl7A4k85jOQIJkNf45o6Ig5AClK58WGEwXnP9F04cBdyYbnH5pYqKLwJXB8c-KsrVbhldR93CoeMTITG9BJi5iuK37eWspI8XryYcpAykmeaXgf0emoaudhT6s0qPPOrpgXB740gWN-Rd-b0Q8hCafWywHGkOpMa8HOCB84-iqEIBLKmlEWB_VcNbmwsz3dnWu2SmFvikxOlp7BVKaQsCwryDHBp01z1rfKv8wRb7AukPbihq9IA9ITw"
+    },
+    "iotHub":{
+        "hostName":"daedalus-iot-CDO-1.azure-devices.net"
+    },
+    "serviceBus": {
+        "clientId": "0b499079-d678-4b16-85d3-c27f93580761",
+        "secret": "X78lQuvV7Zz5SKZP7f7leX8lVCkMzui+EKIiofzLVR0=",
+        "tenant": "eb70b763-b6d7-4486-8555-8831709a784e",
+        "subscriptionId": "52d23e96-a23f-485d-b49d-2886e1705158",
+        "resourceGroupName": "HCO-IoT-CDO-Dev",
+        "namespace": "daedalus-servicebus-cdo-1",
+        "connectionString": "Endpoint=sb://daedalus-servicebus-cdo-1.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=0yz8RNk142Voa8OV+/8vdYxxxukykWmRW6+0uugRadE="
+    },
+    "services": {
+        "cdo-dev-tool": {
+            "aadSecret": "X78lQuvV7Zz5SKZP7f7leX8lVCkMzui+EKIiofzLVR0=",
+            "name": "CDO-Dev-tool",
+            "aadId": "0b499079-d678-4b16-85d3-c27f93580761",
+            "servicePath": "https://management.azure.com/",
+            "tenant": "eb70b763-b6d7-4486-8555-8831709a784e"
+        },
+        "multiclient-test-service": {
+            "aadSecret": "MWVkYmYzNDUtNDYwZC00MmEzLTg4OTEtNGI1OWMyY2Y4N2Vm",
+            "name": "Multiclient Test Service",
+            "aadId": "45a07643-f483-48d0-b957-e1cd013941e4",
+            "servicePath": "http://multiclient-test-service"
+        },
+        "test-smsmc-service": {
+            "aadId": ""
+        },
+        "service-management-service-multiclient": {
+            "aadId": "0e6b71f2-5a2c-40a0-a40c-90b282471d59",
+            "servicePath": "0e6b71f2-5a2c-40a0-a40c-90b282471d59",
+            "name": "SMSMC",
+            "aadSecret": "YTY1YTg1YjgtZWZkNS00MWM4LTk3NmQtOTg4ZTE3NGZiZThk"
+        },
+        "device-configuration-hierarchy-service": {
+            "aadId": "3101b21c-7c19-4b76-be16-a61bdfff8277",
+            "servicePath": "3101b21c-7c19-4b76-be16-a61bdfff8277",
+            "name": "Device Configuration Hierarchy service",
+            "aadSecret": "8Wl4vnRn9DGasnnaDO8wa5W3bUsar6yxjkd9gQl5Sd0="
+        },
+        "client-management-service": {
+            "aadId": "229e9b3d-5a17-4a46-930a-60e8ca114027",
+            "servicePath": "http://client-management-service",
+            "name": "Client Management service",
+            "aadSecret": "qlGcqprw4E/XLXOJVfq9ffyNko1phOjxx0EjkvM7t2A="
+        },
+        "vivaldi-message-store-service": {
+            "aadId": "52dee11b-43d4-4b51-97db-e5c0b6718dd9",
+            "servicePath": "http://vivaldi-message-store-service",
+            "name": "Vivaldi Message Store Service",
+            "aadSecret": "NmZhOWFkNzAtYjgxOC00NDE2LTlmMDQtNjgxNGQ2YzlhYTEz"
+        },
+        "service-management-service": {
+            "aadId": "0e6b71f2-5a2c-40a0-a40c-90b282471d59",
+            "servicePath": "http://service-management-service",
+            "name": "Service Management Service",
+            "aadSecret": "YTY1YTg1YjgtZWZkNS00MWM4LTk3NmQtOTg4ZTE3NGZiZThk"
+        },
+        "dashboard-monitoring-service": {
+            "aadId": "32917404-065b-46f6-be6e-973f5aacf63e",
+            "servicePath": "http://dashboard-monitoring-service",
+            "name": "Dashboard monitoring service",
+            "aadSecret": "ZDM4MzU2M2YtNmViMS00ZGRlLWJkYjktY2MwMDkyN2Y4YWZm"
+        },
+        "backoffice-service": {
+            "aadId": "624a533f-b1f2-47b7-9737-3a642f13aae2",
+            "servicePath": "http://backoffice-service",
+            "name": "Backoffice Service",
+            "aadSecret": "ODYzYTA2N2MtMzg0YS00OWNjLWJmMDQtOWYzN2M4OGVhNjVl"
+        },
+        "https://zf-esync.excelfore.com": {
+            "aadId": "38c83471-8f6a-4055-a4fb-fe47d29aa528",
+            "servicePath": "https://zf-esync.excelfore.com",
+            "name": "Excelfore",
+            "aadSecret": "YzU2YTQzNTgtMWIzYi00ZDdjLWFhYjktYTU5Y2M0YjE4ZjI3"
+        },
+        "sdktutorial-service": {
+            "aadId": "5c8d2d2f-9e2b-4450-924c-5c48793ae965",
+            "servicePath": "http://sdktutorial-service",
+            "name": "Sdk tutorial service",
+            "aadSecret": "MjlhNmZmZGMtNjFhMC00N2RmLTljZjMtZWU4NDVmMzQ4NDA5"
+        },
+        "vivaldi-mobile-service": {
+            "aadId": "177f6be8-7126-49af-a8a7-ecd6c2652799",
+            "servicePath": "http://vivaldi-mobile-service",
+            "name": "Vivaldi Mobile Service",
+            "aadSecret": "NmQ2ZTZkY2UtNDNmNi00YmVlLWExY2ItYTk2MGMzNTM2NTk3"
+        },
+        "vm-scale-set-restarter": {
+            "aadId": "9c87c271-c5df-481d-befe-b19fc27eb260",
+            "servicePath": "http://vm-scale-set-restarter",
+            "name": "VM Scale Set Restarter",
+            "aadSecret": "ODgwZWMwZTEtN2UxZi00ZmNkLTg1NDUtY2FjMjgxMzE5YjU3"
+        },
+        "fuel-consumption-service": {
+            "aadId": "f9b1f8d5-6de5-4460-82fa-df6bc47afd92",
+            "servicePath": "http://fuel-consumption-service",
+            "name": "Fuel Consumption Service",
+            "aadSecret": "MjM2NDVlMDMtOGI0OC00Y2JjLWE1NDktN2M3NGQ0MGJlMjBl"
+        },
+        "sx1-service": {
+            "aadId": "0d7be192-ac83-4bdd-a330-2268c95b66ab",
+            "servicePath": "http://sx1-service",
+            "name": "SX1 service",
+            "aadSecret": "ZDg5YTU2MzMtMjExMi00Nzg0LThiZmUtOThhMTZlYzg0MTBm"
+        },
+        "real-time-data-service": {
+            "aadId": "181a2da7-7626-4ffc-be4f-c6aa7a40d8af",
+            "servicePath": "http://real-time-data-service",
+            "name": "Real Time Data Service",
+            "aadSecret": "NTVlNjgwM2EtNjMzYy00ODg5LWJiMWEtNmFhM2NiNDEyZTFk"
+        },
+        "trips-service": {
+            "aadId": "8c4234cc-82fc-4e65-8320-eb059b2cb721",
+            "servicePath": "http://trips-service",
+            "name": "Trips Service",
+            "aadSecret": "Mzg1NGY4MDQtNzJjYy00NTVkLTgxMWEtYWEwOTY4NTcwMDdi"
+        },
+        "message-dispatcher": {
+            "aadId": "cd2f3bfc-1251-4e5f-9c52-0a7d9fef1a4d",
+            "servicePath": "http://message-dispatcher",
+            "name": "Message Dispatcher",
+            "aadSecret": "OTYyOGE4MDUtNjEzMS00MDQ3LWI0OWItOTQ1ODk0MzIxNjY3"
+        },
+        "sx1-mobile-app": {
+            "aadId": "134c9aa4-59a1-4e8e-9308-30f38396cbe3",
+            "servicePath": "http://sx1-mobile-app",
+            "name": "SX1 Mobile app",
+            "aadSecret": "MDJhNGM2ZjMtODM4MC00OWQ0LTgzY2EtNTVlNzIyNWJhMWY3"
+        },
+        "testing-scripts": {
+            "aadId": "78d920d2-d2b3-44f6-ae5b-98facd73c785",
+            "servicePath": "http://testing-scripts",
+            "name": "OAuth REST Testing scripts",
+            "aadSecret": "ODVkNmJhYjctNWQ5OC00OGE1LTgyOTgtM2JlMzU5NGU5YWQ3"
+        },
+        "device-management-service": {
+            "aadId": "9c0b4d48-4b06-4e2a-a4d6-270a3b5f1831",
+            "servicePath": "http://device-management-service",
+            "name": "Device Management Service",
+            "aadSecret": "NThkY2Y4NzAtYTI2Zi00ZmYxLTlhNTUtYzA1NDQ4MzZlZDUz"
+        },
+        "geocoding-service": {
+            "aadId": "e5a1843d-7527-4d2d-9ff3-ff2a8342ef7d",
+            "servicePath": "http://geocoding-service",
+            "name": "Geocoding Service",
+            "aadSecret": "NDdiOTkwOGUtMmQ3Mi00Mzg1LTgyN2EtYWRhY2RlOGQ5YWYy"
+        },
+        "dashboard-service": {
+            "aadId": "2ce05cbc-ac7f-4e02-96c4-bb3051f3de38",
+            "servicePath": "http://dashboard-service",
+            "name": "Dashboard Service",
+            "aadSecret": "N2VlYzExNGYtYzFmMC00MTY2LWJkNGItNzgxOWNkYWY5YzVh"
+        },
+        "passenger-counting-service": {
+            "aadId": "79b29c0f-334e-4cf0-b4ab-750a347de33f",
+            "servicePath": "http://passenger-counting-service",
+            "name": "Passenger Counting Service",
+            "aadSecret": "NjI5OTliNzctZTQ5Yy00MzIzLWI0ODctNTYyODE0ZDlhMTFi"
+        },
+        "Expresswebapps": {
+            "aadId": "0aad7d39-a4e9-4073-a9cd-8174b4dc378d",
+            "servicePath": "http://Expresswebapps",
+            "name": "Expresswebapps",
+            "aadSecret": "NDQ0NGQ0Y2YtNDYzMC00NWNhLTgxOWUtOGZiZTU4MDZjNDE5"
+        },
+        "geofencing-service": {
+            "aadId": "d1bc4312-d266-4384-8159-4c830dbb69d8",
+            "servicePath": "http://geofencing-service",
+            "name": "Geofencing",
+            "aadSecret": "ODk4MmYwZWQtNTI0Zi00ZDgxLWJmOWUtM2E4ZTU4NGE3M2Ni"
+        },
+        "fleet-management-service": {
+            "aadId": "45a07643-f483-48d0-b957-e1cd013941e4",
+            "servicePath": "http://fleet-management-service",
+            "name": "Fleet Management Service",
+            "aadSecret": "MWVkYmYzNDUtNDYwZC00MmEzLTg4OTEtNGI1OWMyY2Y4N2Vm"
+        },
+        "trip-data-service": {
+            "aadId": "5f718506-0433-4e5f-8062-c41765115bee",
+            "servicePath": "http://trip-data-service",
+            "name": "Trip Data Service",
+            "aadSecret": "NTc3MzI1YzktYjRlZi00NzhjLTljMTMtM2ZjYTFlYTI5OThh"
+        },
+        "power-bi-common": {
+            "aadId": "6066e0ad-bf40-40af-a1e4-286f9a032626",
+            "servicePath": "http://power-bi-common",
+            "name": "Power BI Common",
+            "aadSecret": "YTc4ZDI3MTItMGMwYy00NWYzLWJiMWMtY2NiNTJmNTE4MjJm"
+        },
+        "bus-delay": {
+            "aadId": "0aaf75d1-d9a8-4edf-ae28-e80b6e94b67a",
+            "servicePath": "http://bus-delay",
+            "name": "Bus Delay",
+            "aadSecret": "NDYyMWU1NzAtYzk5My00MDE0LThhZTctYjVlMWM4OGI2Yzk3"
+        },
+        "vivaldi-devices": {
+            "aadId": "090d85a3-30bf-40c2-9560-b00f806d1a47",
+            "servicePath": "http://vivaldi-devices",
+            "name": "Vivaldi Devices",
+            "aadSecret": "NjZiOGM1ZjYtNmUxNy00NGI4LTllNDktNDY4ZTNmMmZiZWJm"
+        },
+        "help-page": {
+            "aadId": "826fcaee-8a34-4ca7-9cdc-e1e990c83620",
+            "servicePath": "http://help-page",
+            "name": "Help page",
+            "aadSecret": "YWY3NjZiYzEtNjYyNS00NjkzLWE4ZDctMWM0MjFkNTBhMTVh"
+        },
+        "vivaldi-remote-logs": {
+            "aadId": "25e98aca-99dd-4dc5-91c0-34507ad0be8b",
+            "servicePath": "http://vivaldi-remote-logs",
+            "name": "Vivaldi Remote Logs",
+            "aadSecret": "NTlhYTg2MmUtMjBhZi00MjgxLTliZjgtM2NjZTAxN2ZhZDJi"
+        },
+        "vivaldi-inspection-service": {
+            "aadId": "6ae9bd66-41cc-49ad-b56d-4dce927b55f0",
+            "servicePath": "http://vivaldi-inspection-service",
+            "name": "Vivaldi inspection service",
+            "aadSecret": "NDJjN2RkY2MtNDEzZi00NGNjLTk1YTAtMGVlNjU3MGY3Nzdi"
+        },
+        "https://openmatics.com/dcb10a42-060c-4ab6-a0c3-9584324c3390": {
+            "aadId": "95e33ad3-2c2a-4fc5-83d8-5640b2593289",
+            "servicePath": "https://openmatics.com/dcb10a42-060c-4ab6-a0c3-9584324c3390",
+            "name": "UI - Winterservice",
+            "aadSecret": "ZGY2OTJjMGUtYWJhZi00MjQ5LTlmYjQtNmVjMDFkODhiZjc2"
+        },
+        "maintenance-service": {
+            "aadId": "d755df5e-d20a-4b9e-9c45-257699837519",
+            "servicePath": "http://maintenance-service",
+            "name": "Maintenance service",
+            "aadSecret": "YzVhNTg3ZjMtMzhiYy00ZGI2LTg4OTQtMjJjMGUyMWU1MzM2"
+        },
+        "https://portaldevx.openmatics.com/": {
+            "aadId": "bcf1aabd-32e3-4922-a644-392427b16620",
+            "servicePath": "https://portaldevx.openmatics.com/",
+            "name": "UI-Openmatics-Portal",
+            "aadSecret": "MDUzMzQ2OGQtN2JhNy00ODk4LThhMWUtYTg4Yzc0NzUzZmE4"
+        },
+        "notification-service": {
+            "aadId": "fe3e143c-2dd2-4a3b-b7a5-6d8bed83962a",
+            "servicePath": "http://notification-service",
+            "name": "Notification Service",
+            "aadSecret": "ZTg5ZTYxMWUtM2FjNi00MTI3LTg5MDQtZWJjMGZhYWEzNTUy"
+        },
+        "initiation-service": {
+            "aadId": "bc70ab73-fbb2-4789-be32-ca3d6bbfbcff",
+            "servicePath": "http://initiation-service",
+            "name": "Initiation service",
+            "aadSecret": "NzhiZjU0NzgtNDlhNy00MzViLTljMmItYzM3OTkyNjljOWQ5"
+        },
+        "authorization-provider-service": {
+            "aadId": "7e83fbe2-709c-437b-a826-e96c4d28267e",
+            "servicePath": "http://authorization-provider-service",
+            "name": "Authorization Provider Service",
+            "aadSecret": "YTJiNjE3NzUtNjE0MC00NmE4LTg2YTAtMTk0YWFhYWUwMzA2"
+        },
+        "vivaldi-management-service": {
+            "aadId": "3f3ce2d0-ba2d-4758-a53f-dafd19225ca3",
+            "servicePath": "http://vivaldi-management-service",
+            "name": "Vivaldi Management Service",
+            "aadSecret": "MzhkM2Q2MmYtMTFlNy00NzQwLTlhYWMtNDVkZjBjMzc5YmVj"
+        },
+        "vivaldi-app-update-service": {
+            "aadId": "26bf7dc9-2d94-4674-8c13-19d166e2dd96",
+            "servicePath": "http://vivaldi-app-update-service",
+            "name": "Vivaldi App Update Service",
+            "aadSecret": "ZWM4YzdiZjMtYjBkYS00YWRhLTlkOTYtZDUyMGM2MDkzYjVi"
+        },
+        "https://dashboarddevad.onmicrosoft.com/55a0df40-44cb-4529-a8a5-48acfabb209a": {
+            "aadId": "106c920c-fa66-4fe5-bf53-e5f61a7f85b1",
+            "servicePath": "https://dashboarddevad.onmicrosoft.com/55a0df40-44cb-4529-a8a5-48acfabb209a",
+            "name": "UI - Passenger Counting",
+            "aadSecret": "NGEwMTc5N2MtOGU2OS00ZjBkLThmZGUtNTNlMzk2ZTMxZTA2"
+        },
+        "vivaldi-activation-service": {
+            "aadId": "2c9cf879-5c40-49e9-b1c8-55d15225759a",
+            "servicePath": "http://vivaldi-activation-service",
+            "name": "Vivaldi Activation Service",
+            "aadSecret": "ZTFmN2VkZjEtODVkYS00MjZiLTg0N2UtYTlkYTdhZTc4OWQ0"
+        },
+        "user-settings-service": {
+            "aadId": "66598fe2-688c-42d2-a3b4-be5f5b9e601d",
+            "servicePath": "http://user-settings-service",
+            "name": "User settings service",
+            "aadSecret": "M2E3ZDUwNTEtOTIwNS00N2M1LTgyY2MtNjg1YmI3ZGU2NWIx"
+        },
+        "energy-consumption-service": {
+            "aadId": "9bcdfabc-fed4-4ca7-8da8-323b70f6a558",
+            "servicePath": "http://energy-consumption-service",
+            "name": "Energy Consumption Service",
+            "aadSecret": "ZDI3YzZkNjItMWE5Ny00NzdiLWI0ZDQtMzY0ZWZmNGQ3NzMw"
+        },
+        "vivaldi-data-service": {
+            "aadId": "6ac0fd09-cafc-4246-84f9-83ab059af11a",
+            "servicePath": "http://vivaldi-data-service",
+            "name": "Vivaldi Data Service",
+            "aadSecret": "ZmYzODUxZmMtYWQ2ZC00N2Q4LTkwNjktMTVlYWMxYzMyMDU3"
+        },
+        "express-web-app": {
+            "aadId": "45806a66-b74d-404b-812b-de74bc869c45",
+            "servicePath": "http://express-web-app",
+            "name": "Express web app",
+            "aadSecret": "ZTE0MDEwNDUtMzNkMC00MjQ0LWFmZjEtNGZmZDRkODA5ODVi"
+        },
+        "portal-management-service": {
+            "aadId": "c2b919a0-6687-4ff2-bfd3-8de7c56ab45e",
+            "servicePath": "http://portal-management-service",
+            "name": "Portal management service",
+            "aadSecret": "ODhkMDc1MWItOTRhOC00Y2ZiLWEzYzUtM2FiNjM4MDVkODJj"
+        },
+        "asset-management-service": {
+            "aadId": "dd340480-9d4c-4436-adfc-73c0998e820b",
+            "servicePath": "http://asset-management-service",
+            "name": "Asset Management Service",
+            "aadSecret": "MWQwMDZjYTItODlhMy00ZWI0LThkMzgtOGI1MmVlN2YzMDQy"
+        },
+        "winterservice-service": {
+            "aadId": "482664f3-f80f-48e9-9c98-babf717c2a65",
+            "servicePath": "http://winterservice-service",
+            "name": "Winterservice Service",
+            "aadSecret": "NDM2OTZlODEtOTk1ZS00OTU4LThjMGMtY2RkZGZkMTNkNWFj"
+        },
+        "client-settings-service": {
+            "aadId": "3a151516-0729-402f-9133-f15339702009",
+            "servicePath": "http://client-settings-service",
+            "name": "Client Settings Service",
+            "aadSecret": "ODY0ZTNmMmUtMDNlYi00NjMxLTk3MTctOTg2NzUxMDQ1ZTdi"
+        }
+    },
+    "deployment": {
+        "clients": [
+            "OpenmaticsNew2",
+            "OpenmaticsNew1"
+        ]
+    },
+    "db": {
+        "name": "daedalus-globalService-CDO",
+        "host": "daedalus-dbserver-cdo-1",
+        "user": "daedalus",
+        "password": "Operations01"
+    }
+}

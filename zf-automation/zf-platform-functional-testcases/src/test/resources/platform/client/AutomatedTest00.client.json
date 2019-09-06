@@ -1,0 +1,9 @@
+{
+  "name": "Automated Test 00_${clientSuffix}",
+  "enabled": true,
+  "address": {},
+  "phone": "+666888123456789",
+  "fax": "999888456710",
+  "users": [],
+  "userGroups": []
+}

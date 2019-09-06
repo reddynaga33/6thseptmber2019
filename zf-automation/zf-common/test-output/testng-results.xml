@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="xmlsuite" duration-ms="74406" started-at="2019-02-15T10:44:41Z" finished-at="2019-02-15T10:45:55Z">
+    <groups>
+    </groups>
+    <test name="Nopackage" duration-ms="74406" started-at="2019-02-15T10:44:41Z" finished-at="2019-02-15T10:45:55Z">
+      <class name="framework.Login">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:framework.Login@6ddf90b0]" name="beforeMethod" is-config="true" duration-ms="17286" started-at="2019-02-15T10:44:41Z" finished-at="2019-02-15T10:44:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void framework.Login.LoginTc001()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LoginTc001()[pri:0, instance:framework.Login@6ddf90b0]" name="LoginTc001" duration-ms="14" started-at="2019-02-15T10:44:58Z" finished-at="2019-02-15T10:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTc001 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:framework.Login@6ddf90b0]" name="afterMethod" is-config="true" duration-ms="97" started-at="2019-02-15T10:44:58Z" finished-at="2019-02-15T10:44:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTc001 status=SUCCESS method=Login.LoginTc001()[pri:0, instance:framework.Login@6ddf90b0] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void framework.Login.LoginTc001()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:framework.Login@6ddf90b0]" name="beforeMethod" is-config="true" duration-ms="12482" started-at="2019-02-15T10:44:58Z" finished-at="2019-02-15T10:45:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void framework.Login.LoginTc002()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LoginTc002()[pri:0, instance:framework.Login@6ddf90b0]" name="LoginTc002" duration-ms="5" started-at="2019-02-15T10:45:11Z" finished-at="2019-02-15T10:45:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTc002 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:framework.Login@6ddf90b0]" name="afterMethod" is-config="true" duration-ms="2404" started-at="2019-02-15T10:45:11Z" finished-at="2019-02-15T10:45:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTc002 status=SUCCESS method=Login.LoginTc002()[pri:0, instance:framework.Login@6ddf90b0] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void framework.Login.LoginTc002()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:framework.Login@6ddf90b0]" name="beforeMethod" is-config="true" duration-ms="13059" started-at="2019-02-15T10:45:13Z" finished-at="2019-02-15T10:45:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void framework.Login.LoginTc003()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LoginTc003()[pri:0, instance:framework.Login@6ddf90b0]" name="LoginTc003" duration-ms="9" started-at="2019-02-15T10:45:26Z" finished-at="2019-02-15T10:45:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTc003 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:framework.Login@6ddf90b0]" name="afterMethod" is-config="true" duration-ms="919" started-at="2019-02-15T10:45:26Z" finished-at="2019-02-15T10:45:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTc003 status=SUCCESS method=Login.LoginTc003()[pri:0, instance:framework.Login@6ddf90b0] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void framework.Login.LoginTc003()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:framework.Login@6ddf90b0]" name="beforeMethod" is-config="true" duration-ms="13239" started-at="2019-02-15T10:45:27Z" finished-at="2019-02-15T10:45:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void framework.Login.LoginTc004()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LoginTc004()[pri:0, instance:framework.Login@6ddf90b0]" name="LoginTc004" duration-ms="13" started-at="2019-02-15T10:45:40Z" finished-at="2019-02-15T10:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTc004 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:framework.Login@6ddf90b0]" name="afterMethod" is-config="true" duration-ms="81" started-at="2019-02-15T10:45:40Z" finished-at="2019-02-15T10:45:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTc004 status=SUCCESS method=Login.LoginTc004()[pri:0, instance:framework.Login@6ddf90b0] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void framework.Login.LoginTc004()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:framework.Login@6ddf90b0]" name="beforeMethod" is-config="true" duration-ms="14130" started-at="2019-02-15T10:45:40Z" finished-at="2019-02-15T10:45:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void framework.Login.LoginTc005()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LoginTc005()[pri:0, instance:framework.Login@6ddf90b0]" name="LoginTc005" duration-ms="8" started-at="2019-02-15T10:45:55Z" finished-at="2019-02-15T10:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTc005 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:framework.Login@6ddf90b0]" name="afterMethod" is-config="true" duration-ms="77" started-at="2019-02-15T10:45:55Z" finished-at="2019-02-15T10:45:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTc005 status=SUCCESS method=Login.LoginTc005()[pri:0, instance:framework.Login@6ddf90b0] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void framework.Login.LoginTc005()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- framework.Login -->
+      <class name="framework.Hooks">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:framework.Hooks@2b2948e2]" name="beforeTest" is-config="true" duration-ms="209" started-at="2019-02-15T10:44:41Z" finished-at="2019-02-15T10:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:framework.Hooks@2b2948e2]" name="afterTest" is-config="true" duration-ms="329" started-at="2019-02-15T10:45:55Z" finished-at="2019-02-15T10:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- framework.Hooks -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- xmlsuite -->
+</testng-results>

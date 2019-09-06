@@ -1,0 +1,16 @@
+ {
+    "boxId": "${boxId}",
+    "bom": "123400",
+    "type": "Bach",
+    "enabled": true,
+    "paid": true,
+    "imei": null,
+    "boxDescription": "${boxId}",
+    "primaryKey": "${primaryKey}",
+    "secondaryKey": "${secondaryKey}",
+    "simCardPhoneNumber": null,
+    "clientIds": [],
+    "assetId": null,
+    "symmetricKey": null,
+    "metadata": null
+}

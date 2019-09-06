@@ -1,0 +1,32 @@
+Kill on win chrome driver:
+-------------------------
+@echo off
+rem   just kills stray local chromedriver.exe instances.
+rem   useful if you are trying to clean your project, and your ide is complaining.
+
+taskkill /im chromedriver.exe /f
+
+
+Seleniun docker images:
+-----------------------
+https://github.com/SeleniumHQ/docker-selenium
+
+testuser:
+----------
+testAdm00@Startstart11
+pokusny.kralik@dashboardtestad.onmicrosoft.com:Start1start
+
+
+Others tools:
+------------
+https://www.protractortest.org/#/ protractor
+
+Remote:
+-------
+https://www.seleniumhq.org/docs/04_webdriver_advanced.jsp#remotewebdriver
+
+Suite orders by xml:
+-------------------
+https://www.mkyong.com/unittest/testng-tutorial-5-suite-test/ - řazení suit, testů group pomocí xml
+
+

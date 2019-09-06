@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [xmlsuite]]]]]]]">
+  <test thread-count="5" name="Single Gateway(failed)(failed)(failed)(failed)(failed)(failed)(failed)">
+    <classes>
+      <class name="zf.test.ZFClientHomeTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="TC02UserInterfaceOfMoreDetails"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- zf.test.ZFClientHomeTest -->
+    </classes>
+  </test> <!-- Single Gateway(failed)(failed)(failed)(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [xmlsuite]]]]]]] -->

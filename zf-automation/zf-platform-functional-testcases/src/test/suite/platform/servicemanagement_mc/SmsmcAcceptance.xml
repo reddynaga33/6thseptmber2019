@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="MulticlienServiceManagement" preserve-order="true">
+    <!--
+    <parameter name="envKey" value="daedalus"/>
+    <parameter name="clientSuffix" value="226"/>
+    -->
+
+    <test thread-count="1"  name="ClientUsesService" group-by-instances="true">
+        <classes>
+            <class name="com.openmatics.test.functional.platform.servicemanagement_mc.ClientUsesServiceRestAcceptanceTest"/>
+        </classes>
+    </test>
+
+    <test thread-count="1"  name="ServiceStarted" group-by-instances="true">
+        <classes>
+            <class name="com.openmatics.test.functional.platform.servicemanagement_mc.ServiceStartedAcceptanceTest"/>
+        </classes>
+    </test>
+
+    <test thread-count="1"  name="ConfigurationEventApi" group-by-instances="true">
+        <classes>
+            <class name="com.openmatics.test.functional.platform.servicemanagement_mc.configuration.ConfigurationEventAcceptanceTest"/>
+        </classes>
+    </test>
+
+    <test thread-count="1"  name="ConfigurationRestApi" group-by-instances="true">
+        <classes>
+            <class name="com.openmatics.test.functional.platform.servicemanagement_mc.configuration.ConfigurationRestAcceptanceTest"/>
+        </classes>
+    </test>
+
+</suite>

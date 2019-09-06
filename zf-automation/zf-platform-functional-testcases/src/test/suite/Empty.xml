@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="nnn" preserve-order="true">
+
+    <!--
+
+        For running in develop test when test to run is in param -Dtest but suite name is required
+
+    -->
+
+    <!--  TIPS and TRICKS
+
+       - if is in pom.xml  <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>  you can run:
+
+         mvn clean test -DsuiteXmlFile='${project.basedir}/src/test/suite/CreateClientInfrastructure.xml'
+
+       - Attribute "preserve-order=true" is essential for preservre order of test or suite how is written in xml
+
+         And preserved to not works in mixed suite file inner develop.xml with test (element test).
+
+       - parameters values is posible incluede here in suite element
+
+            <parameter name="clientSuffix" value="00"/>
+
+            <parameter name="envKey" value="Hera"/>
+
+    -->
+
+</suite>

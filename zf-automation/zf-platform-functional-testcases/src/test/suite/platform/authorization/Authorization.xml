@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="Authorization" preserve-order="true">
+    <!-- Attribute "preserve-order=true" is essential for preservre order of test or suite how is written in xml. -->
+    <test thread-count="1"  name="RoleCrud">
+        <classes>
+            <class name="com.openmatics.test.functional.platform.authorizationprovider.CrudRoleTest"/>
+        </classes>
+    </test>
+</suite>

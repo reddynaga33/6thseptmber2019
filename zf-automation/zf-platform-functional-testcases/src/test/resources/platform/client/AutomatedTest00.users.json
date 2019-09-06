@@ -1,0 +1,24 @@
+[
+  {
+    "givenName": "First",
+    "surname": "AutoTest00_${clientSuffix}",
+    "displayName": "AutoTest00_${clientSuffix}.First",
+    "enabled": true,
+    "email": "zdenek.zahlava@zf.com",
+    "emailSent": true,
+    "clients": [
+      { "id": "${clientId}" }
+    ]
+  },
+  {
+    "givenName": "Second",
+    "surname": "AutoTest00_${clientSuffix}",
+    "displayName": "AutoTest00_${clientSuffix}.Second",
+    "enabled": false,
+    "email": "zdenek.zahlava@zf.com",
+    "emailSent": true,
+    "clients": [
+      { "id": "${clientId}" }
+    ]
+  }
+]

@@ -1,0 +1,4 @@
+{
+  "spring.datasource.url": "jdbc:sqlserver://%s.database.windows.net:1433;database=client-%s-db;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;",
+  "servicemanagement.clientId": "%s"
+}

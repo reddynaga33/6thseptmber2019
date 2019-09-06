@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="GeneralFunctionalMain" preserve-order="true">
+    <!--
+        if is in pom.xml  <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>  you can run:
+        mvn clean test -DsuiteXmlFile='${project.basedir}/src/test/suite/CreateClientInfrastructure.xml'
+    -->
+    <!-- parameters values is posible incluede here
+    <parameter name="clientSuffix" value="00"/>
+    <parameter name="envKey" value="Hera"/>
+    -->
+    <suite-files>
+
+        <suite-file path="platform/client/CreateClientInfrastructure.xml"/>
+
+        <suite-file path="automotive/ArrangeAutomotive.xml"/>
+
+        <suite-file path="platform/Platform.xml"/>
+
+        <suite-file path="automotive/Automotive.xml"/>
+
+    </suite-files>
+</suite>

@@ -1,0 +1,8 @@
+{
+  "name": "ABBB${clientSuffix}${fIndex}",
+  "licensePlate": "${clientSuffix}P${fIndex}",
+  "vin": "${clientSuffix}777770000${fIndex}",
+  "clientIdList": [],
+  "vehicleType": "Bus",
+  "propulsionType": "Diesel"
+}

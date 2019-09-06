@@ -1,0 +1,1671 @@
+[
+	{
+		"_comment": "************************************* Api Automaiton ********************************************************",
+		"TcSqlServer": {
+			"SelectAssetQueryUsingAssetId": "select * from [asset_management_service_schema].[asset] left join [asset_management_service_schema].[asset_type] on [asset].[asset_type_id]=[asset_type].[id] where [asset].id='tempValue'",
+			"SelectValues": "venkata@test.com"
+		}
+	},
+	{
+		"Tauri": {
+			"aad_tenant": "968ff878-be61-4cc1-8139-d08e4a9f8ec8",
+			"aps_aad_secret": "ZWViZGRkMGEtZjBiMC00ZWNhLTk5NTUtODU1MDUwZTAxMzY4",
+			"aps_add_id": "692f1b30-3776-4b49-997b-34d0b97ca7a6",
+			"asset_add_id": "b7721a6c-e72e-4a53-b0c5-5ab27913f605",
+			"asset_add_secret": "YWYyY2Q5ZGYtZTZlYS00YmQxLTk5MTEtMGYzMmY3N2EzYjdi",
+			"asset_url": "{{ base_url  }}/{{ asset  }}",
+			"base_url": "backend-tauri.openmatics.com",
+			"client1_id": "19309c32-1769-42ba-9829-d18d5e9e072d",
+			"client2_id": "49a3bc07-2309-48df-8959-732297707e65",
+			"client_aad_id": "896f3a33-66f1-40ae-9de0-1bd9fc3f61f6",
+			"client_aad_sercet": "ZDEzZmE5YzktMTQyMy00MmE0LTkwMDktZjgzMzRjNTE4Mjc0",
+			"client_settings_aad_id": "3602f6e0-5773-4e59-9750-ede5eff3bad0",
+			"client_settings_aad_sercet": "Njg1ODAwMTctNGU0Yy00YWJkLTg1MDQtMWFiMzViYTk5N2U3",
+			"client_settings_url": "{{ base_url}}/{{ client_settings }}",
+			"client_url": "{{ base_url  }}/{{ client}}",
+			"dash_aad_id": "8d8c41b3-496d-4f56-8a7b-490632b7aff1",
+			"dash_aad_secret": "ZTEwMGMyMjQtYzY0MC00NzdmLWExYTQtYjEwYzJmNjYzYzZj",
+			"device_add_id": "aa723815-f36b-4df4-bb1c-9bd460422234",
+			"device_add_secret": "NmViNzgwNTEtNDU4Mi00ZGRiLThhNmUtNjc2MmYzYmE5MTMx",
+			"device_url": "{{ base_url  }}/{{ device  }}",
+			"fleet_add_id": "400ee3f0-8879-44f0-8c20-6fb323dbe926",
+			"fleet_add_secret": "OWUwYTMxMTAtYmJhNC00YjVhLWJmOTItNTExOWZiODg0YTE3",
+			"gateway_add_id": "eefa91f7-4b7c-43aa-9a45-b3ac45f91a83",
+			"gateway_add_secret": "MGNjZTEyYzMtMjBiMC00Mzk3LTk3YmYtNzJmMDU2NWM5YTgy",
+			"gateway_url": "{{ base_url}}/{{ gateway  }}",
+			"geocoding_aad_id": "e4972204-300e-4962-bb7f-c534debbde00",
+			"geocoding_aad_secret": "NmIyN2FhYzMtNWEyYS00ODI3LWE2NTgtMzliNjA4MmI0ZTg3",
+			"geocoding_url": "{{ base_url  }}/{{ geocoding  }}",
+			"inits_aad_id": "4b4fd644-a97e-48c8-ab75-6641175c25fa",
+			"inits_aad_secret": "YmU4YjU0MmYtMjE2Yy00ZTc5LTlhNmEtOTFlZThlM2JhZmE4",
+			"inits_url": "{{ base_url  }}/{{ inits  }}",
+			"sms2_url": "{{ base_url  }}/{{ sms2 }}",
+			"sms_add_id": "b8f029fe-e9dc-440f-baf8-7431358a8c55",
+			"sms_add_secret": "ZGNhZmVmZjEtNDA4MS00MWMzLWFkYjctODYyN2QyZDYzY2Rm",
+			"sms_url": "{{ base_url  }}/{{ sms  }}",
+			"trip_add_id": "ae9f39fa-4649-4397-810a-06f15d635483",
+			"trip_add_secret": "NmEyZTYzOGItZWIxMC00N2FiLTlhZDEtNTk3YjAwNDkxMTA5",
+			"usersetting_add_id": "9d816b40-0aa3-4238-873e-a6ec5a5f33dd",
+			"usersettings_add_secret": "ZWExODkxNDUtZWU4NC00ZGM2LThkM2MtNzY1YmZiYTljZGQ5",
+			"vivaldi_management_add_id": "9e02f802-a6c2-46e6-89c1-1fdbed73485e",
+			"vivaldi_management_add_scret": "YWIwMTQxY2MtMTNmYi00MGI2LTk5YmYtNzEwNDJmMTM4NmZj",
+			"winter_add_id": "a6dd2618-8980-4cbc-a3aa-7bc641e7c044",
+			"winter_add_secret": "NDU5MjU2NjctNmY4MC00MDQ0LTg1ZWItZjlhYzRhYzI1YTQz"
+		}
+	},
+	{
+		"Tauri_Environment": {
+			"ASSET_ADD_ID": "b7721a6c-e72e-4a53-b0c5-5ab27913f605",
+			"ASSET_ADD_SECRET": "YWYyY2Q5ZGYtZTZlYS00YmQxLTk5MTEtMGYzMmY3N2EzYjdi",
+			"DEVICE_ADD_ID": "aa723815-f36b-4df4-bb1c-9bd460422234",
+			"DEVICE_ADD_SECRET": "NmViNzgwNTEtNDU4Mi00ZGRiLThhNmUtNjc2MmYzYmE5MTMx",
+			"CLIENT_AAD_ID": "896f3a33-66f1-40ae-9de0-1bd9fc3f61f6",
+			"CLIENT_AAD_SERCET": "ZDEzZmE5YzktMTQyMy00MmE0LTkwMDktZjgzMzRjNTE4Mjc0",
+			"INITS_AAD_ID": "4b4fd644-a97e-48c8-ab75-6641175c25fa",
+			"INITS_AAD_SECRET": "YmU4YjU0MmYtMjE2Yy00ZTc5LTlhNmEtOTFlZThlM2JhZmE4",
+			"SMS_ADD_ID": "b8f029fe-e9dc-440f-baf8-7431358a8c55",
+			"SMS_ADD_SECRET": "ZGNhZmVmZjEtNDA4MS00MWMzLWFkYjctODYyN2QyZDYzY2Rm",
+			"AAD_TENANT": "968ff878-be61-4cc1-8139-d08e4a9f8ec8",
+			"TAURI_ENVIRONMENT_FILE": "Tauri.json",
+			"GRANT_TYPE": "client_credentials",
+			"ASSET_RESOURCE": "http://asset-management-service",
+			"CLIENT_RESOURCE": "http://client-management-service",
+			"CLIENT_SETTING_ADD_SECRET": "Njg1ODAwMTctNGU0Yy00YWJkLTg1MDQtMWFiMzViYTk5N2U3",
+			"INITIATION_RESOURCE": "http://initiation-service",
+			"CLIENT_SERVICE_RESOURCE": "b8f029fe-e9dc-440f-baf8-7431358a8c55",
+			"DEVICE_RESOURCE": "http://device-management-service",
+			"AUTHORIZATION_CONTENT_TYPE": "application/x-www-form-urlencoded",
+			"LOGIN_MICROSOFT": "login.microsoftonline.com",
+			"BASE_URL": "https://backend-tauri.openmatics.com",
+			"DEVICE_URL": "global/device-management-service",
+			"SERVICE_MANAGEMENT_SERVICE_MULTICLIENT": "global/service-management-service-multiclient",
+			"ADD_CLIENT_TO_SERVICE": "clients/19309c32-1769-42ba-9829-d18d5e9e072d/service",
+			"DEVICES": "devices",
+			"CONTENT_TYPE": "application/json",
+			"ASSET_URL": "global/asset-management-service",
+			"CREATESERVICE_URL": "global/initiation-service",
+			"ASSETS": "assets",
+			"SERVICES": "services",
+			"CHARGINGSTATIONS": "chargingStations",
+			"CLIENT": "clients",
+			"INITIATE_SERVICE": "initiate/services",
+			"CLIENT_URL": "global/client-management-service",
+			"CLIENTS": "clients",
+			"CREATE_ASSET_JSON": "CreateAssetTemplate",
+			"CREATE_ASSET_DATA": "CreateAssetData",
+			"CREATE_USER_JSON": "CreateUserTemplate",
+			"CREATE_USER_DATA": "CreateUserData",
+			"USERS": "users",
+			"VEHICLE_URL": "global/asset-management-service",
+			"VEHICLES": "vehicles",
+			"SERVICECATALOG_URL": "global/service-catalog-service/servicecatalog",
+			"REGISTRATION": "registration/register",
+			"LIST_REGISTRATION": "registration/requests",
+			"SANDBOXSUB": "sandbox/subscribe",
+			"REJECTREGISTRATION": "registration/reject/{request id}",
+			"PROPULSIONTYPE": "propulsionTypes",
+			"SAGA": "saga",
+			"SERVICEID": "cjujudzok00350116m3sns43y",
+			"CLIENTID": "19309c32-1769-42ba-9829-d18d5e9e072d",
+			"SERVICE": "service",
+			"SERVICESID": "100ffb69-cca0-4c90-be42-b3b0239120b8",
+			"STATUS": "status",
+			"CLIENT_USES_SERVICE": "CLIENT_USES_SERVICE",
+			"PROPULSION_URL": "global/asset-management-service",
+			"PROPULSION": "propulsionTypes",
+			"VEHICLETYPE": "vehicleTypes",
+			"TRUE": "true",
+			"FALSE": "false",
+			"SERVICEDESCRIPTORID": "10c7b95b-6deb-432d-a6d0-a9d30f9b4def",
+			"CONFIG": "config",
+			"True": "true",
+			"CLIENTPROPERTY": "config/clients",
+			"CLIENT1_ID": "19309c32-1769-42ba-9829-d18d5e9e072d",
+			"CLIENT2_ID": "49a3bc07-2309-48df-8959-732297707e65",
+			"SAGAENTITY": "saga/cjum3unu8005p0116ztrwjl7p/status/SERVICE_CONFIGURATION",
+			"SAGAENTITY_VALIDATECLIENT": "saga/cjum65v6o00a901169koail5o/status/SERVICE_CONFIGURATION",
+			"SAGAENTITY_CUS": "saga/cjum6in9b00ap0116qgapegis/status/SERVICE_CONFIGURATION",
+			"SERVICEDESCRIPTOR_ID": "serviceDescriptorId=3b82b5b5-b1c5-489d-a4fd-1468acdbf3e8",
+			"CLIENT_WRONGID": "19309c32-1769-42ba-9829-d18d5e9e072",
+			"HIERARCHICAL": "hierarchical",
+			"CUS_SERVICE_DISCRIPTIONID": "?serviceDescriptorId=3b82b5b5-b1c5-489d-a4fd-1468acdbf3e8",
+			"SAGAENTITYCREATEPROPERTYCUS": "saga/cjum560gi009b0116tthkoh2f/status/SERVICE_CONFIGURATION",
+			"CREATEPROPERTESSAGAENTITYCUS": "saga/cjum5vl1f009f0116ua7hp0wd/status/SERVICE_CONFIGURATION",
+			"CUSPROPERTIES": "19309c32-1769-42ba-9829-d18d5e9e072d?serviceDescriptorId=3b82b5b5-b1c5-489d-a4fd-1468acdbf3e8",
+			"WRONGSERVICEDESCRIPTIONID": "serviceDescriptorId=3b82b5b5-b1c5-489d-a4fd-1468acdbf3e",
+			"CLIENT_SETTING_AAD_ID": "3602f6e0-5773-4e59-9750-ede5eff3bad0",
+			"CLIENTPROPERTY_RESOURCE": "http://client-settings-service",
+			"SAMPLE_ADD_ID": "3cf9a522-41fe-458d-83cb-faab570c98f7",
+			"RESOURCE_ID": "http://multiclient-sample-service-all",
+			"SAMPLE_ADD_SECRET": "cX5eYxFkWNlmKwSdRXuo+ANLtDMd3tURJ2iM4oH5cyc=",
+			"MULTICLIENT_SAMPLE_SERVICE_ALL": "global/multiclient-sample-service-all",
+			"GLOBAL_INFO": "global-info",
+			"METRICS": "metrics",
+			"PROMETHEUS": "prometheus",
+			"CLIENT_CONTEXT": "client-context",
+			"HIERARCHY": "hierarchy",
+			"HEALTH": "health",
+			"CHECK": "check",
+			"FLEET_ADD_ID": "400ee3f0-8879-44f0-8c20-6fb323dbe926",
+			"FLEET_ADD_SECRET": "OWUwYTMxMTAtYmJhNC00YjVhLWJmOTItNTExOWZiODg0YTE3",
+			"FLEET_RESOURCE": "http://fleet-management-service",
+			"FLEET_URL": "fleet-management-service",
+			"FLEETS": "fleets",
+			"GLOBAL": "global",
+			"GREETING_LOGS": "greeting-logs",
+			"ROLLBACK": "rollback",
+			"PROXY": "proxy",
+			"CLIENT_WRONGID_2": "19309c32-1769-42ba-9829-d18d5e9e",
+			"CURRENT_CLIENT": "current-client",
+			"CURRENT_CLIENT_CONTEXT": "current-client-context",
+			"CURRENT_CLIENT_ID": "current-client-id",
+			"CURRENT_CONTEXTS": "current-contexts",
+			"GREETING_ID": "97432a14-23eb-4bd0-bc91-fec1c6e39ca0",
+			"GREETING_ID1": "eab5d722-9ef9-4394-94a1-ca4175d52371",
+			"SERVICESTARTED": "servicestarted",
+			"RUN": "run",
+			"SAMPLE_SERVICE_ID": "24520102-36ac-441a-8ce3-b1354a65b002",
+			"ServiceDescriptor": "com.openmatics.cloud.core.service_service-management-service-multiclient_servicedescriptor",
+			"ServiceSubscription": "ServiceSubscription",
+			"CLIENT3_ID": "d55e36fd-c404-4cd1-ac7f-203e1bead730",
+			"APPLICATIONS": "applications",
+			"USERGROUPS": "userGroups",
+			"CURRENTWRONGCLIENTID": "19309c32-1769-42ba-9829-d18d5e9",
+			"CURRENTCLIENT": "current-client",
+			"CURRENTCLIENTCONTEXT": "current-client-context",
+			"CURRENT_REQUEST_CONTEXT": "current-request-context",
+			"CURRENTREQUESTCONTEXT_WRONGID": "49a3bc07-2309-48df-8959-732297707",
+			"WRONGGREETINGID": "19309c32-1769-42ba-9829-d18d5e9e0",
+			"WRONGCLIENTGREETINGID": "97432a14-23eb-4bd0-bc91-fec1c6e39ca",
+			"GREETINGIDNOCLIENTID": "eab5d722-9ef9-4394-94a1-ca4175d52371",
+			"SERVICEDESCRIPTORID1": "12345678-0f4f-42eb-a3a3-5d3efcd7c40a",
+			"DESTINATIONS": "destinations",
+			"DESTINATION": "destination",
+			"EVENTHUB": "?type=event_hub",
+			"GLOBALDESTINATION": "global/destination",
+			"CLIENTNEW": "8410cfcf-ed86-4b49-aec1-6dd43eee3687",
+			"AUTHORIZATION_PROVIDER_SERVICE": "authorization-provider-service",
+			"USERS_ROLECODE": "users/roleCode",
+			"ROLECODE_1": "NEW_JUL_CODE",
+			"APS_AAD_ID": "692f1b30-3776-4b49-997b-34d0b97ca7a6",
+			"APS_AAD_SECRET": "ZWViZGRkMGEtZjBiMC00ZWNhLTk5NTUtODU1MDUwZTAxMzY4",
+			"APP_ID": "1188f8bd-15e9-4bb4-a4d4-a47840e72065",
+			"WRONG_APP_ID": "692f1b30-3776-4b49-997b-34d0b97ca7",
+			"APP_ID_NEW": "appId",
+			"CORRECT_APP_ID": "692f1b30-3776-4b49-997b-34d0b97ca7a6",
+			"APPID": "appId",
+			"IDEXT": "idExt",
+			"WRONGAPPID": "1188f8bd-15e9-4bb4-a4d4-a47840e7206",
+			"IDEXTID": "583261c0-2f41-4a49-b219-abf433732a00",
+			"WRONGIDEXTID": "583261c0-2f41-4a49-b219-abf433732a0",
+			"GROUPS": "groups",
+			"GROUPID": "362c3649-01d9-4fc9-9407-4ce0add12291",
+			"GROUPIDEXT": "idExt",
+			"ROLE": "roleId",
+			"ROLES": "roles",
+			"PRIVILEGES": "privileges"
+		}
+	},
+	{
+		"sqlserver": {
+			"SQLSERVERDRIVER": "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+			"SQLSERVERJDBC": "jdbc:sqlserver://",
+			"SQLSERVERHOST": "tauri-dbserver-cdo-1.database.windows.net",
+			"SQLSERVERPORT": "1433",
+			"SQLSERVERDATABASE": "tauri-globalService-CDO",
+			"SQLSERVERDATABASEClient65": "client-49a3bc07-2309-48df-8959-732297707e65-db",
+			"SQLSERVERDATABASEClient72d": "client-19309c32-1769-42ba-9829-d18d5e9e072d-db",
+			"SQLSERVERUSER": "tauri@tauri-dbserver-cdo-1",
+			"SQLSERVERPASSWORD": "Operations01",
+			"SelectAssetQueryUsingAssetId": "select * from [asset_management_service_schema].[asset] left join [asset_management_service_schema].[asset_type] on [asset].[asset_type_id]=[asset_type].[id] where [asset].id='tempValue'",
+			"SelectAssetQueryUsingVehicleId": "select * from [asset_management_service_schema].[vehicle] left join [asset_management_service_schema].[vehicle_type] on [vehicle_type].[id] = [vehicle].[vehicle_type_id] left join [asset_management_service_schema].[vehicle_model] on [vehicle_model].[id]=[vehicle].[vehicle_model_id] where [vehicle].asset_id='tempValue'",
+			"SelectAssetQueryUsingChargingStationId": "select * from [asset_management_service_schema].[charging_station] left join [asset_management_service_schema].[asset] on [asset].id=[charging_station].asset_id where asset_id='tempValue'",
+			"SelectServiceDescriptorDetails": "select * from [service_management_service_schema].[service_descriptor] where name='tempValue'",
+			"SelectSagaId": "select * from [service_management_service_schema].[event_result] where SAGA_ID='tempValue'",
+			"SelectPropulsionTypeID": "select * from [asset_management_service_schema].[propulsion_type] where ID='tempValue'",
+			"SelectPropulsionTypeIDDetails": "select ID from [asset_management_service_schema].[propulsion_type]",
+			"SelectVehicleTypeId": "select * from [asset_management_service_schema].[vehicle_type] where [vehicle_type].id='tempValue'",
+			"SelectAllVehicleTypeId": "select [vehicle_type].id from [asset_management_service_schema].[vehicle_type]",
+			"SelectClientProperty": "select PROP_KEY, PROP_VALUE from Service_management_service_schema.property where CLIENT_ID='19309c32-1769-42ba-9829-d18d5e9e072d' and TYPE='CLIENT'",
+			"SelectCUSProperty": "select PROP_KEY, PROP_VALUE from Service_management_service_schema.property where CLIENT_ID='19309c32-1769-42ba-9829-d18d5e9e072d' and TYPE='CLIENT_USES_SERVICE'",
+			"SelectWrongSSIDProperty": "select * from Service_management_service_schema.property where SERVICE_DESCRIPTOR_ID='tempValue'",
+			"SelectWrongClientProperty": "select * from Service_management_service_schema.property where CLIENT_ID='tempValue'",
+			"SelectGreetingDetails": "select GREETING_MESSAGE from multiclient_sample_service_all_schema.greeting",
+			"SelectClientGreetingDetails": "select * from multiclient_sample_service_all_schema.greeting",
+			"SelectSubClientDetails": "select * from service_management_service_schema.client where CLIENT_NAME='tempValue'",
+			"SelectcreatedServiceDescriptorID": "Select ID from service_management_service_schema.service_descriptor where ID='tempValue'",
+			"SelectClientUserService": "Select * from service_management_service_schema.client_uses_service where SERVICE_DESCRIPTOR_ID='tempValue'",
+			"SelectClientUserServices": "Select * from service_management_service_schema.client_uses_service where SERVICE_DESCRIPTOR_ID='tempValue'",
+			"SelectAssetDetailsWithName": "Select ID,name from [asset_management_service_schema].[asset]  where name ='tempValue'",
+			"SelectAssetDetailsWithID": "Select name,ID from [asset_management_service_schema].[asset]  where ID ='tempValue'",
+			"SelectFleetDetailsWithName": "Select ID,name from [fleet_management_service_schema].[fleet]  where name ='tempValue'",
+			"SelectFleetDetailsWithID": "Select name,ID from [fleet_management_service_schema].[fleet]  where ID ='tempValue'",
+			"SelectAssetDetails": "select * from asset_management_service_schema.asset where id='tempValue'",
+			"SelectGlobalGreetings": "select * from multiclient_sample_service_all_schema.greeting_global",
+			"SelectGlobalGreetingDetails": "select * from multiclient_sample_service_all_schema.greeting_global",
+			"nameidentifier": "select NAME_IDENTIFIER from multiclient_sample_service_all_schema.destination",
+			"validateFleetAssetInDB": "Select * from fleet_management_service_schema.asset2fleet  where FLEET_ID='tempValue'",
+			"SelectAssignFleetToClient": "select CLIENT_ID from service_management_service_schema.client_uses_service where CLIENT_ID='tempValue'",
+			"SelectAPSDetails": "select * from [authorization_provider_service_schema].[role] where id = 'tempValue'",
+			"SelectAPSRoleNameDetails": "select * from [authorization_provider_service_schema].[role] where name = 'tempValue'"
+		}
+	},
+	{
+		"mysql": {
+			"MYSQLDRIVER": "com.mysql.cj.jdbc.Driver",
+			"MYSQLJDBC": "jdbc:mysql://",
+			"MYSQLHOST": "localhost",
+			"MYSQLPORT": "3306",
+			"MYSQLDATABASE": "family",
+			"MYSQLUSER": "root",
+			"MYSQLPASSWORD": "admin"
+		}
+	},
+	{
+		"CreateAssetTemplate": {
+			"name": "test def 1234 080219-2",
+			"description": "deffleet 123",
+			"assetType": {
+				"name": "VEHICLE_ASSET_TYPE"
+			},
+			"clientIdList": [
+				"8afbf92b-1feb-4bb7-858b-1c231d8e6344"
+			]
+		}
+	},
+	{
+		"CreateAsset": {
+			"name": "ZFAsset",
+			"description": "ZFAsset",
+			"assetType": {
+				"name": "VEHICLE_ASSET_TYPE"
+			},
+			"clientIdList": [
+				"8afbf92b-1feb-4bb7-858b-1c231d8e6344"
+			]
+		}
+	},
+	{
+		"CreateAssetData": {
+			"name": "test def 080219-2",
+			"description": "deffleet",
+			"assetType.name": "VEHICLE_ASSET_TYPE",
+			"clientIdList": "8afbf92b-1feb-4bb7-858b-1c231d8e6344"
+		}
+	},
+	{
+		"CreateUserTemplate": {
+			"displayName": "Temp Auto 123",
+			"enabled": true,
+			"email": "michal.lepsi@zf.com",
+			"supporterFlag": false,
+			"emailSent": false
+		}
+	},
+	{
+		"CreateUserData": {
+			"displayName": "Temp Auto 123",
+			"enabled": true,
+			"email": "michal.lepsi@zf.com",
+			"supporterFlag": false,
+			"emailSent": false
+		}
+	},
+	{
+		"User": {
+			"id": "01452f39-50f1-49ae-b287-eb9cb1a549b5"
+		}
+	},
+	{
+		"Asset": {
+			"id": "017b880c-cbe3-4333-8879-6f5a0ab81ae7"
+		}
+	},
+	{
+		"CreateService": {
+			"groupId": "com.openmatics.cloud.service.test",
+			"artifactId": "API_Test-service",
+			"singleClient": true
+		}
+	},
+	{
+		"CreateVersion": {
+			"name": "API_Test_CreateVersion",
+			"image": "APITest"
+		}
+	},
+	{
+		"CreateDeviceTemplate": {
+			"id": "1232143201",
+			"bom": "123456",
+			"type": "Bach",
+			"enabled": true,
+			"paid": true,
+			"imei": null,
+			"description": "Box 123548001F4F temp",
+			"clientIds": [],
+			"assetId": "",
+			"metadata": null
+		}
+	},
+	{
+		"CreateDeviceData": {
+			"id": "1232",
+			"bom": "123456",
+			"type": "Bach",
+			"enabled": true,
+			"paid": true,
+			"imei": null,
+			"description": "Box 123548001F4F temp",
+			"clientIds": [],
+			"assetId": "",
+			"metadata": null
+		}
+	},
+	{
+		"CreateVehicleData": {
+			"name": "Temp Vehicle",
+			"description": "Temp Vehicle",
+			"assetType": {
+				"name": "VEHICLE_ASSET_TYPE"
+			},
+			"clientIdList": [
+				"49a3bc07-2309-48df-8959-732297707e65"
+			],
+			"licensePlate": "Temp LicensePlate",
+			"vin": "987654679",
+			"vehicleType": {
+				"name": "Bus"
+			},
+			"vehicleModel": null,
+			"propulsionType": {
+				"name": "DIESEL"
+			}
+		}
+	},
+	{
+		"CreateChargingStationData": {
+			"name": "Temp Charging Station",
+			"assetType": {
+				"name": "CHARGING_STATION_ASSET_TYPE"
+			},
+			"clientIdList": [
+				"75fc0d39-21a7-4687-acd6-906ecb1aca10"
+			]
+		}
+	},
+	{
+		"RegistrationRequestWithAlreadyUsedEmail": {
+			"registrationNumber": "null",
+			"adminEmail": "admin1@test.com",
+			"requeststatus": "",
+			"requestedOn": "null",
+			"clientInfoModel": {
+				"clientInfoId": "null",
+				"clientName": "Test client ",
+				"street": " street ",
+				"streetNumber": "123",
+				"city": " Kochi ",
+				"state": " kerala",
+				"zip": "123456",
+				"country": "India",
+				"phone": "1234567890",
+				"fax": "123",
+				"web": "test.com",
+				"email": "testShaik2@test.com",
+				"logoImageBase64": ""
+			},
+			"divisionId": 1
+		}
+	},
+	{
+		"AcceptRegistrationRequest": {
+			"action": "SUCCESS",
+			"message": "SUCCESS",
+			"id_ext": "null"
+		}
+	},
+	{
+		"CreatingRegistrationData": {
+			"registrationNumber": "null",
+			"adminEmail": "admin1@test.com",
+			"requeststatus": "null",
+			"requestedOn": "null",
+			"clientInfoModel": {
+				"clientInfoId": "null",
+				"clientName": "Test client ",
+				"street": " street ",
+				"streetNumber": "123",
+				"city": " Kochi ",
+				"state": " kerala",
+				"zip": "123456",
+				"country": "India",
+				"phone": "1234567890",
+				"fax": "123",
+				"web": "test.com",
+				"email": "testShaik2@test.com",
+				"logoImageBase64": ""
+			},
+			"divisionId": 1
+		}
+	},
+	{
+		"RejectRegistrationData": {
+			"action": "SUCCESS",
+			"message": "SUCCESS",
+			"id_ext": "null"
+		}
+	},
+	{
+		"servicedescriptorservice": {
+			"id": "100ffb69-cca0-4c90-be42-b3b0239120b8",
+			"artifactId": "michal_test1",
+			"groupId": "com.openmatics.cloud.service.test",
+			"singleClient": true
+		}
+	},
+	{
+		"propulsionType": {
+			"PROPULSIONTYPE": "propulsionTypes",
+			"name": "test_propulsion_sasken_3",
+			"id": "51f3ebdf-8d59-44d9-a7d6-6f20c5f56ce0"
+		}
+	},
+	{
+		"ServiceDescriptorWithAppId": {
+			"client1id": "19309c32-1769-42ba-9829-d18d5e9e072d",
+			"ServiceId": "10c7b95b-6deb-432d-a6d0-a9d30f9b4def"
+		}
+	},
+	{
+		"assignServiceToClientWithoutAppid": {
+			"status": "/saga/cjujudzok00350116m3sns43y/status/CLIENT_USES_SERVICE",
+			"audit": "/saga/cjujudzok00350116m3sns43y/?type=CLIENT_USES_SERVICE"
+		}
+	},
+	{
+		"sagastatusfail": {
+			"operation": "CREATE",
+			"status": "FAIL",
+			"type": "CLIENT_USES_SERVICE"
+		}
+	},
+	{
+		"sagastatussuccess": {
+			"operation": "CREATE",
+			"status": "Success",
+			"type": "CLIENT_USES_SERVICE"
+		}
+	},
+	{
+		"CreatePropulsionType": {
+			"name": "test_propulsion_sasken_3"
+		}
+	},
+	{
+		"CreateVehicleTypeData": {
+			"name": "pulser203 test 080219-3",
+			"description": "Bajaj Pulser_2",
+			"assetType": {
+				"name": "VEHICLE_ASSET_TYPE_pulser_203"
+			},
+			"clientIdList": [
+				"19309c32-1769-42ba-9829-d18d5e9e072d"
+			],
+			"licensePlate": "pulser-201 test 080218-9",
+			"vin": "98765432333347774",
+			"vehicleType": {
+				"name": "Motor Cycle"
+			},
+			"vehicleModel": null,
+			"propulsionType": {
+				"name": "GAS"
+			}
+		}
+	},
+	{
+		"sandbox": {
+			"projectId": "10003",
+			"applicationId": "1",
+			"subscribedBy": "nag",
+			"divisionName": "dev",
+			"workspaceName": "dev3",
+			"location": "CENTRALINDIA"
+		}
+	},
+	{
+		"getSpecificPropulsionTypeDetails": {
+			"id": "51f3ebdf-8d59-44d9-a7d6-6f20c5f56ce0"
+		}
+	},
+	{
+		"ServiceDescriptorWithOutAppId": {
+			"client1id": "19309c32-1769-42ba-9829-d18d5e9e072d",
+			"ServiceId": "55e34684-72af-47f2-be24-c778876201a0"
+		}
+	},
+	{
+		"CUSUpdateTrue": {
+			"test": "Nikhill-CUS-418-11-UPDATE"
+		}
+	},
+	{
+		"CreatePropertyForCUS": {
+			"test": "AUTOMATION-Test-RCOFF"
+		}
+	},
+	{
+		"createPropertyForUserServiceData": {
+			"test": "Nikhill-CUS-418-11",
+			"test1": "New-Nikhil-CUS-22",
+			"test2": "New-2-Nikhil-CUS-33"
+		}
+	},
+	{
+		"CreatePropertyForClient": {
+			"test": "AUTOMATION-Test"
+		}
+	},
+	{
+		"UpdatePropertyForClient": {
+			"test": "AUTOMATION-UpdatePropertyForClient"
+		}
+	},
+	{
+		"UpdatePropertyForCUS": {
+			"test": "AUTOMATION-CUS-UPDATE"
+		}
+	},
+	{
+		"serviceBus": {
+			"clientId": "f4bf1ca1-2f17-4b80-b42f-0d6a13b0d410",
+			"secret": "ResVWywuDSeLC9/Kx7vN4zLjS3srLxKdnHemlGvMBGc=",
+			"tenant": "eb70b763-b6d7-4486-8555-8831709a784e",
+			"subscriptionId": "f889f019-873b-4c24-a776-bf10fc81df76",
+			"resourceGroupName": "HCO-IoT-CDO-Test",
+			"namespace": "tauri-servicebus-cdo-1",
+			"connectionString": "Endpoint=sb://tauri-servicebus-cdo-1.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=Iplk4UmQ4XitmkMsw3h1exdvlZHGlTFWFNufuc98IO8="
+		}
+	},
+	{
+		"serviceBusIRIS": {
+			"clientId": "f4bf1ca1-2f17-4b80-b42f-0d6a13b0d410",
+			"secret": "ResVWywuDSeLC9/Kx7vN4zLjS3srLxKdnHemlGvMBGc=",
+			"tenant": "eb70b763-b6d7-4486-8555-8831709a784e",
+			"subscriptionId": "f889f019-873b-4c24-a776-bf10fc81df76",
+			"resourceGroupName": "HCO-IoT-CDO-Test",
+			"namespace": "iris-servicebus-cdo-1",
+			"connectionString": "Endpoint=sb://iris-servicebus-cdo-1.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=WTQkqxd50gCPzKFdt6o7LLAxBfrdDa9AwMwp4cwlhPo="
+		}
+	},
+	{
+		"ClientPropertyTopicName": {
+			"ServiceConfiguration": "com.openmatics.cloud.core.service_service-management-service-multiclient_serviceconfiguration",
+			"ServiceConfigurationChanged": "com.openmatics.cloud.core.service_service-management-service-multiclient_serviceconfigurationchanged",
+			"ServiceConfigurationResult": "com.openmatics.cloud.core.service_service-management-service-multiclient_serviceconfigurationresult",
+			"SubscriptionName": "ClientPropertyTopicSubscription"
+		}
+	},
+	{
+		"PrometheusMetrics": {
+			"Response": "jersey_request_count{uri=",
+			"Info": "global-info/clients",
+			"Method": ",method=",
+			"Get": "GET",
+			"Interval": ",interval=",
+			"HealthCheck": "health/check"
+		}
+	},
+	{
+		"ClientGreeting": {
+			"message": "SAMPLESERVICE "
+		}
+	},
+	{
+		"ClientProxyGreeting": {
+			"message": "Hallo everyone, im greeting client by proxy"
+		}
+	},
+	{
+		"LoginCredentialsScenarios": {
+			"LoginWrongEmailMessage": "We couldn't find an account with that username.",
+			"LoginWrongPasswordErrorMessage": "Your account or password is incorrect. If you don't remember your password, reset it now.",
+			"LoginValidCredentials": "Welcome to Openmatics portal",
+			"LoginStaySignedIn": "Stay signed in?"
+		}
+	},
+	{
+		"CreateServiceDescriptorWrongID": {
+			"name": "ServiceTest",
+			"uuid": "i213",
+			"artifactId": "AutomationServiceDescriptor",
+			"groupId": "AutomationServiceDescriptor",
+			"singleClient": false,
+			"appId": "400ee3f0-8879-44f0-8c20-6fb323dbe926"
+		}
+	},
+	{
+		"CreateServiceDescriptor": {
+			"name": "ServiceTest",
+			"uuid": "i213",
+			"artifactId": "AutomationServiceDescriptor",
+			"groupId": "AutomationServiceDescriptor",
+			"singleClient": false,
+			"appId": "400ee3f0-8879-44f0-8c20-6fb323dbe926"
+		}
+	},
+	{
+		"CreateServiceDescriptorTopicName": {
+			"ServiceDescriptor": "com.openmatics.cloud.core.service_service-management-service-multiclient_servicedescriptor",
+			"ServiceDescriptorResult": "com.openmatics.cloud.core.service_service-management-service-multiclient_servicedescriptorresult",
+			"SubscriptionName": "ServiceDescriptorTopicSubscription"
+		}
+	},
+	{
+		"CreateServiceDescriptorWithWrongAppID": {
+			"name": "ServiceTest",
+			"artifactId": "Automation SD wrongAPP ID",
+			"groupId": "com.openmatics.dashboard.service",
+			"singleClient": false,
+			"appId": "choclate"
+		}
+	},
+	{
+		"ClientUserServiceTopicName": {
+			"clientusesservice": "com.openmatics.cloud.core.service_service-management-service-multiclient_clientusesservice",
+			"clientusesserviceresult": "com.openmatics.cloud.core.service_service-management-service-multiclient_clientusesserviceresult",
+			"SubscriptionName": "NewSubscriptionforTopic"
+		}
+	},
+	{
+		"ClientDetails": {
+			"clientName": "TestSubClient",
+			"email": "venkata@test.com",
+			"street": "bridge street",
+			"information": "ZF Automation",
+			"streetNumber": "2512",
+			"telephone": "12345678912345",
+			"postCode": "9876",
+			"webSite": "www.howtodo.com",
+			"country": "USA",
+			"fax": "12345678978999",
+			"ToasterMsg": "SUCCESS",
+			"clientNameEmpty": "           ",
+			"clientNameSpecialChar": "Client123#%%^",
+			"clientNameWithAbove32Char": "Client Name with more than 32 characters",
+			"clientNameErrorMsg": "The name contains unsupported characters. Please, enter valid name.",
+			"clientEmptyEmail": "     ",
+			"clientInvalidEmail": "!@#$%^&*()",
+			"clientEmailErrorMsg": "The e-mail address is not valid. Please enter a valid e-mail address.",
+			"clientTelephoneEmpty": "      ",
+			"clientTelephoneSpecialChar": "#%%^"
+		}
+	},
+	{
+		"EditClientDetails": {
+			"clientName": "TestSubClientEdit",
+			"email": "venkata@test.com",
+			"street": "bridge street",
+			"information": "ZF Automation",
+			"streetNumber": "2512",
+			"Telephone": "12345678912345",
+			"postCode": "9876",
+			"Website": "www.howtodo.com",
+			"country": "USA",
+			"Fax": "1234567897",
+			"SuccessMessage": "SUCCESS",
+			"clientNameEmpty": "           ",
+			"clientNameSpecialChar": "Client123#%%^",
+			"clientNameWithAbove32Char": "Client Name with more than 32 characters",
+			"clientNameErrorMsg": "The name contains unsupported characters. Please, enter valid name.",
+			"clientEmptyEmail": "     ",
+			"clientInvalidEmail": "!@#$%^&*()",
+			"clientEmailErrorMsg": "The e-mail address is not valid. Please enter a valid e-mail address.",
+			"clientTelephoneEmpty": "      ",
+			"clientTelephoneSpecialChar": "#%%^"
+		}
+	},
+	{
+		"CreateAssetstWithAllFeilds": {
+			"Country": "India",
+			"Area": "Kerala",
+			"LocationAddress": "Test",
+			"LocationGeolocationLatitude": "Test",
+			"LocationGeolocationLongitude": "Test",
+			"Customer": "ZF",
+			"BusinessUnit": "Vehicle",
+			"AssetName": "TEST12345",
+			"AssetType": "Electric bus",
+			"GATEWAYType": "Type",
+			"Manufacturer": "Jeep",
+			"Model": "Commander",
+			"Brand": "TRW",
+			"SerialNumber": "test12345",
+			"SensorID": "123456789",
+			"Description": "Description for Asset",
+			"MetaDatalicensePlate": "value for licensePlate",
+			"MetaDataPropulsionType": "value for PrpulsionType",
+			"MetaDatavehicleType": "w value for vecleType",
+			"MetaDatavin": "33456789",
+			"ToasterMessageSuccess": "SUCCESS",
+			"ToasterMessageSuccessReason": "Asset added successfully"
+		}
+	},
+	{
+		"CreateAssetWithRestAPI": {
+			"name": "Automation RestAPI",
+			"description": "automate apis",
+			"assetType": {
+				"name": "truck"
+			},
+			"clientIdList": [
+				"49a3bc07-2309-48df-8959-732297707e65",
+				"19309c32-1769-42ba-9829-d18d5e9e072d"
+			]
+		}
+	},
+	{
+		"CreateFleetPayload": {
+			"name": "AutomateFleet",
+			"description": "Automation Fleet desc",
+			"fleetSize": 1,
+			"assetsList": []
+		}
+	},
+	{
+		"UpdateFleetPayload": {
+			"name": "AutoFleet_update",
+			"description": "Auto Fleet_desc_updated",
+			"fleetSize": 0,
+			"assetsList": []
+		}
+	},
+	{
+		"UpdateExistingAsset": {
+			"Country": "Iceland",
+			"Area": "Vik",
+			"LocationAddress": "Sasken address Edited",
+			"LocationGeolocationLatitude": "Sasken latitide Edited",
+			"LocationGeolocationLongitude": "Sasken longitude Edited",
+			"Customer": "NA",
+			"BusinessUnit": "Factory",
+			"AssetName": "Automation_Editedasset",
+			"AssetType": "BASIC_ASSET_TYPE",
+			"Manufacturer": "Chrysler",
+			"Model": "Aspen",
+			"Brand": "TRW",
+			"ToasterMessageSuccess": "SUCCESS",
+			"ToasterMessageSuccessReason": "Asset updated successfully"
+		}
+	},
+	{
+		"Fleet": {
+			"fleetname": "AutoTest",
+			"fleetnamenew": "Sam1",
+			"infotext": "Adding Vehicles",
+			"infotextnew": "Adding Vehicles1",
+			"vehicle": "test",
+			"vehicle1": "Test Vehicle2",
+			"vehiclenew": "CZV 6232",
+			"vehiclenew1": "JD 6130R",
+			"ToasterMessageSuccessReason": "Fleet was created successfully."
+		}
+	},
+	{
+		"Asset": {
+			"AssetName": "Automation 1234",
+			"AssetComments": "Additional Comments"
+		}
+	},
+	{
+		"AssetUpdate": {
+			"id": "a4bf1c6f-3980-469e-8b2e-c2050a3eb364",
+			"name": "TEST1345",
+			"description": "Description for Asset",
+			"creationTime": "2019-04-03T16:08:17.740Z",
+			"assetType": {
+				"id": "4f00a213-cc46-4fe7-81d8-5abb32cf601a",
+				"name": "BASIC_ASSET_TYPE"
+			},
+			"clientIdList": [
+				"19309c32-1769-42ba-9829-d18d5e9e072d",
+				"5ed405bd-2fa4-476c-a9b3-d538167f8439"
+			]
+		}
+	},
+	{
+		"SendGreetRequestToClientIdAndGlobalDB": {
+			"clientid": "49a3bc07-2309-48df-8959-732297707e65",
+			"message": "SAMPLESERVICE "
+		}
+	},
+	{
+		"ClientGreetingWithClientID": {
+			"clientid": "49a3bc07-2309-48df-8959-732297707e65",
+			"message": "SAMPLESERVICE "
+		}
+	},
+	{
+		"GetGreetLogsWithCorrectClient": {
+			"clientid": "49a3bc07-2309-48df-8959-732297707e65",
+			"message": "SAMPLESERVICE "
+		}
+	},
+	{
+		"GreetLogsWithCorrectClient": {
+			"clientid": "49a3bc07-2309-48df-8959-732297707e65",
+			"message": "SAMPLESERVICE "
+		}
+	},
+	{
+		"GreetingToclientFromRollback": {
+			"clientid": "49a3bc07-2309-48df-8959-732297707e65",
+			"message": "SAMPLESERVICE "
+		}
+	},
+	{
+		"SendGreetToWrongClientIdAndGlobalDB": {
+			"clientid": "19309c32-1769-42ba-9829-d18d5e9e072",
+			"message": "SAMPLESERVICE "
+		}
+	},
+	{
+		"GetGreetLogsWithWrongClient": {
+			"clientid": "19309c32-1769-42ba-9829-d18d5e9e072",
+			"message": "SAMPLESERVICE "
+		}
+	},
+	{
+		"GreetingToWrongclientFromRollback": {
+			"clientid": "19309c32-1769-42ba-9829-d18d5e9e072",
+			"message": "SAMPLESERVICE "
+		}
+	},
+	{
+		"ClientGreetingWithWrongClientID": {
+			"clientid": "19309c32-1769-42ba-9829-d18d5e9e072",
+			"message": "SAMPLESERVICE "
+		}
+	},
+	{
+		"ClientGreetingWithNoClientID": {
+			"message": "SAMPLESERVICE "
+		}
+	},
+	{
+		"JSONCreateGreetingLogsWithWrongClientID": {
+			"clientId": "19309c32-1769-42ba-9829-d18d5e9e072d",
+			"greetingMessage": "Automation-610"
+		}
+	},
+	{
+		"JSONSendGreetingWithWrongClientID": {
+			"clientId": "19309c32-1769-42ba-9829-d18d5e9e072d",
+			"greetingMessage": "auto-test-610"
+		}
+	},
+	{
+		"ServicestartedMc": {
+			"ServiceStartedmcService": "com.openmatics.cloud.core.service_service-management-service-multiclient_servicestartedmc",
+			"DestinationChangedService": "com.openmatics.cloud.core.service_service-management-service-multiclient_destinationchanged",
+			"SubscriptionName": "SSMCSubscriptionName"
+		}
+	},
+	{
+		"DeleteSampleServicepayload": {
+			"clientId": "19309c32-1769-42ba-9829-d18d5e9e072d",
+			"serviceID": "24520102-36ac-441a-8ce3-b1354a65b002"
+		}
+	},
+	{
+		"assignSampleServicePayload": {
+			"serviceID": "24520102-36ac-441a-8ce3-b1354a65b002",
+			"artifactId": "AutomationServiceDescriptor",
+			"groupId": "AutomationServiceDescriptor",
+			"singleClient": false,
+			"appId": "400ee3f0-8879-44f0-8c20-6fb323dbe926"
+		}
+	},
+	{
+		"EditClientWithAPI": {
+			"parentId": "19309c32-1769-42ba-9829-d18d5e9e072d",
+			"name": "sasken_test_api",
+			"address": {
+				"street": "sasken_test str1_update",
+				"furtherInfo": "sasken_xma testing"
+			},
+			"email": "sushilkumar.gupta@sasken.com"
+		}
+	},
+	{
+		"createServiceDescriptorWithNoName": {
+			"name": "",
+			"artifactId": "Auto-test-",
+			"groupId": "Autotest-",
+			"singleClient": false,
+			"appId": "400ee3f0-8879-44f0-8c20-6fb323dbe926"
+		}
+	},
+	{
+		"MiscellaneousTopicName": {
+			"ServiceAllGreetingRequest": "com.openmatics.cloud.core.service_multiclient-sample-service-all_greetingrequest",
+			"ServiceAllGreetingResult": "com.openmatics.cloud.core.service_multiclient-sample-service-all_greetingresult",
+			"SubscriptionName": "MulticlientSampleServiceTopicSubscription"
+		}
+	},
+	{
+		"MiscellaneousTopicPayload": {
+			"payload": {
+				"message": "AutomateTest"
+			},
+			"eventID": "3d0da353-7a2d-4129-93c9-deea0aa49eb0",
+			"eventTimestamp": "2019-04-12T11:07:00.904Z",
+			"sourceName": "null_null",
+			"correlationId": "cjudyvezs00003c58oazajg8v",
+			"sagaId": "cjudyvezs00013c58q65fph3o"
+		}
+	},
+	{
+		"EditIClientDetailsPayload": {
+			"name": "TestClientEdit",
+			"enabled": true,
+			"address": {
+				"street": "Hyderabad",
+				"streetNumber": "12",
+				"furtherInfo": "Sasken",
+				"city": "Hyderabad",
+				"state": "Telangana",
+				"zip": "1234587",
+				"country": "india"
+			},
+			"phone": "+91-8096962070",
+			"fax": "999123456710",
+			"users": [],
+			"userGroups": []
+		}
+	},
+	{
+		"CreateIClientDetailsPayload": {
+			"name": "TestClientAutomation",
+			"enabled": true,
+			"address": {
+				"street": "Hyderabad",
+				"streetNumber": "12",
+				"furtherInfo": "Sasken",
+				"city": "Hyderabad",
+				"state": "Telangana",
+				"zip": "1234587",
+				"country": "india"
+			},
+			"phone": "+8714666420123456789",
+			"fax": "999123456710",
+			"users": [],
+			"userGroups": []
+		}
+	},
+	{
+		"TestMessage": {
+			"payload": {
+				"operation": "Test",
+				"status": null,
+				"payload": {
+					"id": null,
+					"serviceDescriptorId": null,
+					"clientId": "19309c32-1769-42ba-9829-d18d5e9e072d",
+					"reconfigure": true,
+					"properties": null
+				}
+			},
+			"eventID": "a5fa739e-f9ba-4783-9614-54220acc15d3",
+			"eventTimestamp": "2019-07-02T08:22:42.127",
+			"sourceName": "com.openmatics.cloud.core.service_service-management-service-multiclient",
+			"correlationId": "cjxljo3wv004k0135q1i6fkgk",
+			"sagaId": "cjxljo3wv004l01359gehdfx2"
+		}
+	},
+	{
+		"MulticlientSamplesService": {
+			"DestinationChanged": "com.openmatics.cloud.core.service_service-management-service-multiclient_destinationchanged",
+			"ClientUsesServiceResult": "com.openmatics.cloud.core.service_service-management-service-multiclient_clientusesserviceresult",
+			"AllGreetingRequest": "com.openmatics.cloud.core.service_multiclient-sample-service-all_greetingrequest",
+			"ServiceStartedmc": "com.openmatics.cloud.core.service_service-management-service-multiclient_servicestartedmc",
+			"ServiceSubscription": "multiclient-sample-service-all",
+			"payload": {
+				"groupId": "com.openmatics.cloud.core.service",
+				"artifactId": "multiclient-sample-service-all",
+				"destinations": [
+					{
+						"nameIdentifier": "com.openmatics.cloud.core.service_multiclient-sample-service-all_greetingresult",
+						"type": "TOPIC",
+						"partitioning": false,
+						"singleClient": false,
+						"messageType": {
+							"id": null,
+							"name": "com.openmatics.cloud.core.service.multiclientsample.messaging.model.GreetingResult",
+							"version": "1.0.0"
+						},
+						"direction": "OUT"
+					},
+					{
+						"nameIdentifier": "com.openmatics.cloud.core.service_multiclient-sample-service-all_data_v1.0.0",
+						"type": "QUEUE",
+						"partitioning": false,
+						"singleClient": false,
+						"messageType": {
+							"id": null,
+							"name": "mr.obvious.nasty.message.example",
+							"version": "1.0.0"
+						},
+						"direction": "IN"
+					}
+				]
+			}
+		}
+	},
+	{
+		"CreateUserGroup": {
+			"name": "Michal test group",
+			"enabled": true,
+			"client": {
+				"id": "19309c32-1769-42ba-9829-d18d5e9e072d"
+			}
+		}
+	},
+	{
+		"EditUserGroup": {
+			"id": "",
+			"name": "Michal test group321 edit",
+			"enabled": true,
+			"creationTime": "2018-02-18T12:48:51.391Z",
+			"client": {
+				"id": "19309c32-1769-42ba-9829-d18d5e9e072d"
+			},
+			"users": [
+				{
+					"id": "e0eeab2c-273b-4061-ad59-ec48b7c4c5df"
+				}
+			]
+		}
+	},
+	{
+		"CreateUser": {
+			"givenName": "Test",
+			"surname": "User",
+			"displayName": "Test User",
+			"enabled": true,
+			"email": "venkata.yadavalli@sasken.com",
+			"supporterFlag": false,
+			"emailSent": false
+		}
+	},
+	{
+		"UpdateUserDetails": {
+			"id": "",
+			"login": "autotest00_347.first@zfiotcdotauri.onmicrosoft.com",
+			"givenName": "Second",
+			"surname": "AutoTest00_347",
+			"displayName": "Test User",
+			"enabled": false,
+			"creationTime": "2019-04-26T23:10:51.336Z",
+			"email": "zdenek.zahlava@zf.com",
+			"supporterFlag": false,
+			"emailSent": true
+		}
+	},
+	{
+		"EditFleet": {
+			"fleetname": "AutoTest",
+			"fleetnamenew": "Sam1",
+			"infotext": "Adding Vehicles",
+			"infotextnew": "Adding Vehicles1",
+			"vehicle": "test",
+			"vehicle1": "Test Vehicle2",
+			"vehiclenew": "test",
+			"vehiclenew1": "JD 6130R",
+			"ToasterMessageSuccessReason": "Changes were saved successfully."
+		}
+	},
+	{
+		"JSONCreateSDWithCorrectUUID": {
+			"name": "nikhil-627-8",
+			"artifactId": "Nikhiltest-627-8",
+			"groupId": "Nikhiltest-627",
+			"singleClient": false,
+			"appId": "400ee3f0-8879-44f0-8c20-6fb323dbe926"
+		}
+	},
+	{
+		"GreetingsLog": {
+			"clientId": "19309c32-1769-42ba-9829-d18d5e9e072d",
+			"greetingMessage": "Automation-610"
+		}
+	},
+	{
+		"clickHelpAndVerifyTabs": {
+			"IntelligentConnectivityExpMsg": "OPENMATICS is driven by a vision to connect the world intelligently for everybody; to make it safer, more convenient and sustainable. Whether through vehicle connectivity, electromobility or remote diagnostics, we develop telematics solutions while others have not even recognized the challenges yet. OPENMATICS is set to develop open, individual concepts that provide intelligent connectivity solutions in telematics, asset tracking, entertainment, diagnostics and engineering. These concepts will lead to the future of digital connectivity; a future in which each customer’s individual needs are addressed. OPENMATICS is dedicated to its vision of a perfectly connected world.",
+			"openForANewWorld": "Our vision is to live in an open world which is securely and intelligently connected. To achieve this, we develop connectivity solutions for the future: solutions that will drive digitization in industry, as well as globalization in logistics and trade. Our systems will enable new types of transport that support urbanization, save resources and benefit nature. With our open connectivity platform, we supply the best uniform standard for secure, flexible and reliable networking worldwide, without system or technology barriers. Our customers and partners can intelligently connect people and things around the world.",
+			"VehicleListandFilterP1": "The list of vehicles that are available – it is showing all vehicles visible for the currently logged in user. Vehicles are sorted based on latest response – the one with the newest data is first. Vehicles inactive for more than 5 minutes are shown in grey colour.",
+			"VehicleListandFilterP2": "Vehicle is selected and shown on map by clicking on it in the vehicle list.",
+			"VehicleListandFilterP3": "Time information in the right corner of every vehicle indicates the time of last sent message.",
+			"VehicleListandFilterP4": "Yellow exclamation mark indicates a reached threshold – warning.",
+			"VehicleListandFilterP5": "Red exclamation mark indicates that error appears in the vehicle.",
+			"VehicleListandFilterP6": "Green check indicates no present warnings or errors.",
+			"VehicleListandFilterP7": "Blue eye allows to go directly to the Vehicle detail view.",
+			"VehicleListandFilterP8": "Filter allows full-text search within the vehicle license plates, selection of fleets and particular states of vehicles. Clear filters with one click on the “Clear filters” button. Filter results are applied to the list of vehicles, to the map view and to the 'clickable' KPIs.",
+			"KPIP1": "The Key Performance Indicators are showing the overall performance of the fleet and also the current status. It is configurable, which KPIs will be shown.",
+			"KPIP2": "There are two types of KPIs:",
+			"KPIP3": "Daily status overview KPIs: These KPIs reflect the overall status of the fleet. Data for these calculations are gathered for all vehicles for the current day – since midnight.",
+			"KPIP4": "Current vehicle status KPIs: These KPI reflect the current state of vehicles and show amount of vehicles that fulfil some particular criteria like critical speed, errors, etc. After clicking on such KPI, vehicles on map are filtered. More than one KPI can be selected at a time.",
+			"OVERVIEW_P1": "All or filtered vehicles are shown in a form of coloured pins on map with shown licence plate number. Colours of the pin indicate:",
+			"OVERVIEW_P2": "Green: Vehicle doesn't contain any errors or warnings AND SoC/Fuel level larger than 20%.",
+			"OVERVIEW_P3": "Yellow: Vehicle has at least one active threshold warning (and no active error) OR SoC larger than 10% OR Fuel level less or equal than 20%.",
+			"OVERVIEW_P4": "Red: Vehicle has at least one active error OR SoC less or equal than 10%.",
+			"OVERVIEW_P5": "For electric vehicles, a lightning icon appears when the vehicle is being charged.",
+			"OVERVIEW_P6": "After clicking on the vehicle pin, a pop-up with detailed information about the vehicle appears. From that pop-up is possible to go to the Vehicle detail view by clicking on the “Details” button.",
+			"OVERVIEW_P7": "In the upper-right corner are components for expanding the map over the whole width of the screen and for following selected vehicles.",
+			"VH_DETAIL_P1": "In this view the detailed information about the selected vehicle are shown. Data are refreshed every 2 seconds.",
+			"VH_DETAIL_P2": "TellTales: Icons of selected tell tales reflect the currently lit dashboard lights in the vehicle.",
+			"VH_DETAIL_P3": "Detailed info: Particular important signal values are shown in the left part of the detail view.",
+			"VH_DETAIL_P4": "GUI elements: For showing current values of the most important values like speed, RPM, coolant temperature, fuel level, ad blue level or for example State of charge for electric vehicles.",
+			"VH_DETAIL_P5": "Map: Offers the most recent view of the vehicle position and also shows line of the route where the vehicle went.",
+			"TECH_OVERVIEW_P1": "Second tab in the vehicle detail view contains live streaming of other important vehicle data. Data are refreshed every 2 seconds. Not available signals are shown in light-grey colour and can be hidden by the “Hide unavailable signals” check-box.",
+			"KPI_SETTINGS_P1": "In the KPI settings screen is possible to select up to 8 KPIs – mix from the “Daily status overview KPIs” and “Current vehicle status KPIs” ones. After pressing the “Save Changes” button, the selected KPIs will appear on the main Dashboard view.",
+			"KPI_SETTINGS_P2": "KPIs can be described by 3 groups - suitable for different vehicle types.",
+			"KPI_SETTINGS_P3": "Combustion: Suitable only for the combustion vehicles – only these vehicles are counted in case of mixed fleet. E.g.: Fuel consumption, Engine hours.",
+			"KPI_SETTINGS_P4": "Electric: Suitable only for the electric vehicles / charging stations – only these vehicles are counted in case of mixed fleet. E.g.: Total CO2 saved, Critical state of charge.",
+			"KPI_SETTINGS_P5": "Overall: Suitable for all vehicles – all vehicles are taken into account in case of mixed fleet. E.g.: Fleet status, Driven distance, Critical speed.",
+			"BackOffice_Fleet_textP1": "Fleet is an option of virtual grouping of vehicles of all vehicles that belong to the client. Vehicles assigned to fleets will be grouped to them in every other Portal application - for example in vehicle list in Dashboard. There are few rules for fleet creation, editing and also some hints:",
+			"BackOffice_Fleet_textP2": "One vehicle can belong to one fleet only. This means that if you insert a particular vehicle to a fleet, it will be automatically removed from the fleet it was assigned to before.",
+			"BackOffice_Fleet_textP3": "Fleets must have unique names. The application will not allow creating two fleets with the same name.",
+			"BackOffice_Fleet_textP4": "Default fleet serves as a stock for vehicles that are not assigned to any other fleet. If some not-empty fleet is deleted, all vehicles will fall to the Default fleet. This fleet cannot be deleted even if it is empty.",
+			"BackOffice_Fleet_textP5": "Visibility for sub-clients: Fleets are only a view to vehicles for the current client. In case of sharing vehicles between clients, fleets are not duplicated and each client can divide vehicles to fleets in a different way.",
+			"BackOffice_Create_Fleet_textP1": "Creating of a fleet is initiated by button “Create new fleet”. This opens a wizard with three steps that guide you through the fleet creation process.",
+			"BackOffice_Create_Fleet_textP2": "Basic data: fill in the fleet name (must be unique) and optionally also the description (maximally 256 characters).",
+			"BackOffice_Create_Fleet_textP3": "Assign vehicles: here you can assign vehicles to the newly created fleet. It can be done by pressing button or using drag and drop. To remove a vehicle, use use button – the vehicle will be returned back to the fleet where it was originally placed.",
+			"BackOffice_Create_Fleet_textP4": "Create fleet: confirms the creation of the new fleet with overview of assigned vehicles.",
+			"Backoffice_Edit_Delete_text1": "Three basic functionalities allow simple operations with fleets:",
+			"Backoffice_Edit_Delete_text2": "Delete: will delete the selected fleet, vehicles from it will be automatically assigned to the Default fleet.",
+			"Backoffice_Edit_Delete_text3": "Edit vehicle list: allows moving vehicles between the selected fleet and rest of fleets.",
+			"Backoffice_Edit_Delete_text4": "Edit data: reopens the initial wizard – it is a place to edit fleet completely: change name, description and also assignment of vehicles.",
+			"Vehicle_Management_vehicle_txt1": "Vehicle management provides overview of all vehicles of the client and allows user to edit vehicle parameters. The filtering option offers full-text search within the vehicle license plates and filtering by fleets.",
+			"Vehicle_Management_vehicle_txt2": "Jump to vehicle detail in Dashboard: by clicking on the eye icon in the upper right corner, vehicle detail view in Dashboard is opened for the current vehicle.",
+			"VehicleMgmnt_editing vehicle_txt1": "It is possible to edit various parameters of vehicle: Vehicle type, Fuel type, Fuel tank volume, PTO (if vehicle has a PTO), Next Maintenance date.",
+			"VehicleMgmnt_editing vehicle_txt2": "Vehicle type: selection of vehicle type should be done correctly because it influences a lot of features in applications. For example the Vehicle detail in Dashboard shows different information for electric and combustion vehicles (like State of Charge vs. Fuel level, Fuel vs. Energy consumption, etc.).",
+			"VehicleMgmnt_editing vehicle_txt3": "Coming soon: possibility of editing of thresholds for vehicles will come soon – currently thresholds are saved in configuration files and can be edited only manually.",
+			"User_Management_user_txt1": "The user management offers an overview about existing users, possibility of searching using the filter functionality and allows to create new users for the current Client.",
+			"User_Management_user_txt2": "Coming soon:user roles will allow to set different user rights to different users and also allow to restrict visibility of assets.",
+			"User_Management_creatingUser_txt1": "Create new users for the current Client by entering the name, surname and e-mail address. The introduction e-mail with login information then arrives to the entered e-mail address.",
+			"User_Management_creatingUser_txt2": "Coming soon:possibility to create users also for sub-clients and enhancing the user information with options like telephone number, position, etc."
+		}
+	},
+	{
+		"CreateGreetingLogswithNoClientIdData": {
+			"clientId": "19309c32-1769-42ba-9829-d18d5e9e072d",
+			"greetingMessage": "AutoTest-610"
+		}
+	},
+	{
+		"GreetingLogIdWithNoClientIdData": {
+			"clientId": "19309c32-1769-42ba-9829-d18d5e9e072d",
+			"greetingMessage": "auto-test-610"
+		}
+	},
+	{
+		"CreateSD": {
+			"artifactId": "Autotest-7103",
+			"groupId": "AutoTest-627",
+			"appId": "400ee3f0-8879-44f0-8c20-6fb323dbe926",
+			"singleClient": true
+		}
+	},
+	{
+		"Payload": {
+			"name": "Openmatics 1 Test",
+			"enabled": true,
+			"address": {
+				"street": "Hyderabad",
+				"streetNumber": "123",
+				"furtherInfo": "Sasken1",
+				"city": "Hyderabad",
+				"state": "Telangana",
+				"zip": "1234587",
+				"country": "india"
+			},
+			"phone": "+8714666420123456789",
+			"fax": "999123456710",
+			"users": [],
+			"userGroups": []
+		}
+	},
+	{
+		"C63214CreateNewfleetForAClient": {
+			"name": "Auto Fleet",
+			"description": "Automation Fleet desc",
+			"fleetSize": 0
+		}
+	},
+	{
+		"C63217AddAssetTOAFleetForAClient": {
+			"1221": [
+				"9c1a5824-c643-4a7a-9e75-cef4670aab59"
+			]
+		}
+	},
+	{
+		"validatePageTitle": {
+			"GatewayPageTitle": "ZF IoT PLATFORM",
+			"PortalTitle": "Openmatics portal"
+		}
+	},
+	{
+		"launchAllApplications": {
+			"Maintenance": "Maintenance",
+			"Trips": "Trips",
+			"Dashboard": "Dashboard",
+			"AddGateWay": "Add Gateway",
+			"Backoffice": "Backoffice",
+			"Help": "Help"
+		}
+	},
+	{
+		"ServiceDesciptorPayload": {
+			"artifactId": "TestSD",
+			"groupId": "Nikhiltest-62711",
+			"appId": "400ee3f0-8879-44f0-8c20-6fb323dbe926",
+			"singleClient": true
+		}
+	},
+	{
+		"SDName": {
+			"name": "TestSD"
+		}
+	},
+	{
+		"CreateNewRolePayloadWithOutUser": {
+			"code": "CODE_NEW4",
+			"name": "TEST_ROLE-004",
+			"description": "Testing the newly created API",
+			"groups": null,
+			"users": null,
+			"privileges": []
+		}
+	},
+	{
+		"CreateNewRolePayload": {
+			"code": "NEW_JUL_CODE_TO_TEST",
+			"name": "TEST_NEW_J",
+			"description": "Testing the newly created API",
+			"groups": null,
+			"users": [
+				{
+					"id": "513b5281-d83e-47da-a646-9184e852230e",
+					"idExt": "1f1e8fd5-84ee-4193-b1d9-6aba0b72ff7f",
+					"roles": null,
+					"privileges": null
+				}
+			],
+			"privileges": []
+		}
+	},
+	{
+		"AutherizationProviderService": {
+			"AppRegistration": "com.openmatics.cloud.core.service_authorization-provider-service_appregistrationevent",
+			"APSSubscriptionName": "APPRegistrationTopicSubscription"
+		}
+	},
+	{
+		"APSMultipleRemoveMultipleDefaultPayload": {
+			"payload": {
+				"appName": "gateway-portal-management-service",
+				"appId": "cedea70f-3ff0-47a3-a00f-93a087130698",
+				"appRights": {
+					"adminRole": [
+						{
+							"code": "R_CREATE",
+							"name": "Role Create"
+						},
+						{
+							"code": "R_EDIT",
+							"name": "Role Edit"
+						},
+						{
+							"code": "R_DELETE",
+							"name": "Role Delete"
+						},
+						{
+							"code": "ASSET_CREATE",
+							"name": "Asset Create"
+						},
+						{
+							"code": "ASSET_DELETE",
+							"name": "Asset Delete"
+						},
+						{
+							"code": "ASSET_EDIT",
+							"name": "Asset Edit"
+						},
+						{
+							"code": "ASSET_READ",
+							"name": "Asset Read"
+						},
+						{
+							"code": "DEVICE_CREATE",
+							"name": "Device Create"
+						},
+						{
+							"code": "DEVICE_DELETE",
+							"name": "Device Delete"
+						},
+						{
+							"code": "DEVICE_EDIT",
+							"name": "Device Edit"
+						},
+						{
+							"code": "DEVICE_READ",
+							"name": "Device Read"
+						},
+						{
+							"code": "VISIBILITY_CREATE",
+							"name": "Visibility Create"
+						},
+						{
+							"code": "VISIBILITY_DELETE",
+							"name": "Visibility Delete"
+						},
+						{
+							"code": "VISIBILITY_EDIT",
+							"name": "Visibility Edit"
+						},
+						{
+							"code": "VISIBILITY_READ",
+							"name": "Visibility Read"
+						},
+						{
+							"code": "CONFIGURATION_CREATE",
+							"name": "Configuration Create"
+						},
+						{
+							"code": "CONFIGURATION_EDIT",
+							"name": "Configuration Edit"
+						},
+						{
+							"code": "VIEW_ADMIN_CONSOLE",
+							"name": "View Admin Console"
+						},
+						{
+							"code": "EDIT_TARGET_PATH",
+							"name": "Edit Target Path"
+						},
+						{
+							"code": "VIEW_TARGET_PATHS",
+							"name": "View Target Path"
+						}
+					],
+					"fleetManagerRole": [
+						{
+							"code": "CONFIGURATION_CREATE",
+							"name": "Configuration Create"
+						}
+					],
+					"operatorRole": [
+						{
+							"code": "ASSET_READ",
+							"name": "Asset Read"
+						},
+						{
+							"code": "DEVICE_READ",
+							"name": "Device Read"
+						},
+						{
+							"code": "VISIBILITY_READ",
+							"name": "Visibility Read"
+						},
+						{
+							"code": "VIEW_TARGET_PATHS",
+							"name": "View Target Path"
+						}
+					],
+					"noRole": []
+				}
+			}
+		}
+	},
+	{
+		"APSMultipleRemoveAllDefaultPayload": {
+			"payload": {
+				"appName": "gateway-portal-management-service",
+				"appId": "cedea70f-3ff0-47a3-a00f-93a087130698",
+				"appRights": {
+					"adminRole": [
+						{
+							"code": "R_CREATE",
+							"name": "Role Create"
+						},
+						{
+							"code": "R_EDIT",
+							"name": "Role Edit"
+						},
+						{
+							"code": "R_DELETE",
+							"name": "Role Delete"
+						},
+						{
+							"code": "ASSET_CREATE",
+							"name": "Asset Create"
+						},
+						{
+							"code": "ASSET_DELETE",
+							"name": "Asset Delete"
+						},
+						{
+							"code": "ASSET_EDIT",
+							"name": "Asset Edit"
+						},
+						{
+							"code": "ASSET_READ",
+							"name": "Asset Read"
+						},
+						{
+							"code": "DEVICE_CREATE",
+							"name": "Device Create"
+						},
+						{
+							"code": "DEVICE_DELETE",
+							"name": "Device Delete"
+						},
+						{
+							"code": "DEVICE_EDIT",
+							"name": "Device Edit"
+						},
+						{
+							"code": "DEVICE_READ",
+							"name": "Device Read"
+						},
+						{
+							"code": "VISIBILITY_CREATE",
+							"name": "Visibility Create"
+						},
+						{
+							"code": "VISIBILITY_DELETE",
+							"name": "Visibility Delete"
+						},
+						{
+							"code": "VISIBILITY_EDIT",
+							"name": "Visibility Edit"
+						},
+						{
+							"code": "VISIBILITY_READ",
+							"name": "Visibility Read"
+						},
+						{
+							"code": "CONFIGURATION_CREATE",
+							"name": "Configuration Create"
+						},
+						{
+							"code": "CONFIGURATION_EDIT",
+							"name": "Configuration Edit"
+						},
+						{
+							"code": "VIEW_ADMIN_CONSOLE",
+							"name": "View Admin Console"
+						},
+						{
+							"code": "EDIT_TARGET_PATH",
+							"name": "Edit Target Path"
+						},
+						{
+							"code": "VIEW_TARGET_PATHS",
+							"name": "View Target Path"
+						}
+					],
+					"fleetManagerRole": [
+						{
+							"code": "CONFIGURATION_CREATE",
+							"name": "Configuration Create"
+						}
+					],
+					"operatorRole": [
+						{
+							"code": "ASSET_READ",
+							"name": "Asset Read"
+						},
+						{
+							"code": "DEVICE_READ",
+							"name": "Device Read"
+						},
+						{
+							"code": "VISIBILITY_READ",
+							"name": "Visibility Read"
+						},
+						{
+							"code": "VIEW_TARGET_PATHS",
+							"name": "View Target Path"
+						}
+					],
+					"noRole": []
+				}
+			}
+		}
+	},
+	{
+		"GlobalInfoService": {
+			"servicestartedmc": "com.openmatics.cloud.core.service_service-management-service-multiclient_servicestartedmc",
+			"destinationchanged": "com.openmatics.cloud.core.service_service-management-service-multiclient_destinationchanged",
+			"GlobalInfoSubscriptionName": "GlobalInfoserviceTopicSubscription"
+		}
+	},
+	{
+		"assignSampleServiceWithCorrectClientIDPayload": {
+			"message": "Test API"
+		}
+	},
+	{
+		"ClientManagmentServiceTopicName": {
+			"CUS": "com.openmatics.cloud.core.service_client-management-service_clientusesapplicationresult",
+			"CUA": "com.openmatics.cloud.core.service_service-management-service-multiclient_clientusesservice",
+			"SubscriptionName": "ClientManagmentServiceSubscription"
+		}
+	},
+	{
+		"BackOfficeServiceTopicName": {
+			"BOServiceStarted": "com.openmatics.cloud.core.service_service-management-service-multiclient_servicestartedmc",
+			"SubscriptionName": "ClientManagmentServiceSubscription"
+		}
+	},
+	{
+		"CMSPayload": {
+			"payload": {
+				"operation": "DELETE",
+				"status": null,
+				"payload": {
+					"applicationId": "692f1b30-3776-4b49-997b-34d0b97ca7a6",
+					"clientId": "49a3bc07-2309-48df-8959-732297707e65"
+				}
+			},
+			"eventID": "f130e26a-fcb4-4d5d-a2e4-2a77ac95137d",
+			"eventTimestamp": [
+				2019,
+				8,
+				29,
+				4,
+				11,
+				48,
+				769000000
+			],
+			"sourceName": "com.openmatics.cloud.core.service_client-management-service",
+			"correlationId": "cjzw68vc101pa0188iyy36d8f",
+			"sagaId": "cjzw68vc101pb0188iwf31f9j"
+		}
+	},
+	{
+		"BackOfficeServicePayload": {
+			"payload": {
+				"groupId": "com.openmatics.cloud.core.service",
+				"artifactId": "backoffice-service",
+				"destinations": [
+					{
+						"nameIdentifier": "com.openmatics.cloud.core.service_service-management-service-multiclient_clientusesserviceresult",
+						"type": "TOPIC",
+						"partitioning": false,
+						"singleClient": false,
+						"messageType": {
+							"id": null,
+							"name": "com.openmatics.cloud.core.model.servicemanagementservicemulticlient.service.ClientUsesServiceResult",
+							"version": "1.0.0"
+						},
+						"direction": "IN"
+					},
+					{
+						"nameIdentifier": "com.openmatics.cloud.core.service_service-management-service-multiclient_destinationchanged",
+						"type": "TOPIC",
+						"partitioning": false,
+						"singleClient": false,
+						"messageType": {
+							"id": null,
+							"name": "com.openmatics.cloud.core.model.servicemanagementservicemulticlient.destination.DestinationChanged",
+							"version": "1.0.0"
+						},
+						"direction": "IN"
+					},
+					{
+						"nameIdentifier": "com.openmatics.cloud.core.service_authorization-provider-service_appregistrationevent",
+						"type": "TOPIC",
+						"partitioning": false,
+						"singleClient": false,
+						"messageType": {
+							"id": null,
+							"name": "com.openmatics.cloud.core.model.authorizationprovidermodel.event.AppRegistrationEvent",
+							"version": "1.0.0"
+						},
+						"direction": "OUT"
+					},
+					{
+						"nameIdentifier": "com.openmatics.cloud.core.service_service-management-service-multiclient_servicedescriptorresult",
+						"type": "TOPIC",
+						"partitioning": false,
+						"singleClient": false,
+						"messageType": {
+							"id": null,
+							"name": "com.openmatics.cloud.core.service_service-management-service-multiclient_servicedescriptorresult",
+							"version": "1.0.0"
+						},
+						"direction": "IN"
+					}
+				]
+			},
+			"eventID": "78127ef0-8d62-48bb-87a1-e3aa3a24b744",
+			"eventTimestamp": [
+				2019,
+				8,
+				13,
+				7,
+				54,
+				26,
+				541000000
+			],
+			"sourceName": "com.openmatics.cloud.core.service_backoffice-service",
+			"correlationId": "cjz9j5jl900020136pe3xcllg",
+			"sagaId": "cjz9j5jl900030136uqgir5d0"
+		}
+	}
+]

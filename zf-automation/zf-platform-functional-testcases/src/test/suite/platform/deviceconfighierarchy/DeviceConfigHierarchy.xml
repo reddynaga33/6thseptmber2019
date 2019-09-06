@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="DeviceConfigurationHierarchy" preserve-order="true">
+    <!-- Attribute "preserve-order=true" is essential for preservre order of test or suite how is written in xml. -->
+    <test thread-count="1"  name="SimpleCreateDeviceConfigurationHierarchy">
+        <!-- now not iplemented this is draft
+        <parameter name="enablesEnvKeys" value="Daedalus"/>
+        <parameter name="disablesEnvKeys" value="Prometheus"/>
+        -->
+        <classes>
+            <class name="com.openmatics.test.functional.deviceconfigurationhierarchy.CreateDeviceConfigurationHierarchyTest"/>
+        </classes>
+    </test>
+    <!-- now not implemented
+    <test thread-count="1"  name="CanNotCallAsOtherServiceTest">
+        <classes>
+            <class name="com.openmatics.test.functional.deviceconfigurationhierarchy.CanNotCallAsOtherServiceTest"/>
+        </classes>
+    </test>
+    -->
+</suite>

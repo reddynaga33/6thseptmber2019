@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="AutomotiveMainUi" preserve-order="true">
+<!-- Attribute "preserve-order=true" is essential for preservre order of test or suite how is written in xml. -->
+    <suite-files>
+        <suite-file path="ArrangeAutomotive.xml"/>
+        <suite-file path="AutomotiveUi.xml"/>
+        <suite-file path="CleanAutomotive.xml"/>
+    </suite-files>
+
+</suite>

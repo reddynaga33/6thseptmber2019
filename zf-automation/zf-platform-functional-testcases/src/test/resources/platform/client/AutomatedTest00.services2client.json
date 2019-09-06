@@ -1,0 +1,8 @@
+[
+    "fleet-management-service",
+    "backoffice-service",
+    "dashboard-service",
+    "real-time-data-service",
+    "trip-data-service",
+    "authorization-provider-service"
+]

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="3" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [xmlsuite]]]]]]" duration-ms="65120" started-at="2019-03-28T12:48:12Z" finished-at="2019-03-28T12:49:17Z">
+    <groups>
+    </groups>
+    <test name="Single Gateway(failed)(failed)(failed)(failed)(failed)(failed)" duration-ms="65120" started-at="2019-03-28T12:48:12Z" finished-at="2019-03-28T12:49:17Z">
+      <class name="zf.test.ZFClientHomeTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:zf.test.ZFClientHomeTest@1e4a7dd4]" name="beforeMethod" is-config="true" duration-ms="38686" started-at="2019-03-28T12:48:12Z" finished-at="2019-03-28T12:48:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void zf.test.ZFClientHomeTest.TC02UserInterfaceOfMoreDetails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="TC02UserInterfaceOfMoreDetails()[pri:0, instance:zf.test.ZFClientHomeTest@1e4a7dd4]" name="TC02UserInterfaceOfMoreDetails" duration-ms="25636" started-at="2019-03-28T12:48:51Z" finished-at="2019-03-28T12:49:17Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected value is :       Actual value is : +666 6666 6666 666]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected value is :       Actual value is : +666 6666 6666 666
+at org.testng.Assert.fail(Assert.java:96)
+at framework.ExtentReport.compareText(ExtentReport.java:156)
+at zf.pages.ZFClientHomePage.clientMoreDetailsStaticValidation(ZFClientHomePage.java:100)
+at zf.test.ZFClientHomeTest.TC02UserInterfaceOfMoreDetails(ZFClientHomeTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02UserInterfaceOfMoreDetails -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:zf.test.ZFClientHomeTest@1e4a7dd4]" name="afterMethod" is-config="true" duration-ms="769" started-at="2019-03-28T12:49:17Z" finished-at="2019-03-28T12:49:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC02UserInterfaceOfMoreDetails status=FAILURE method=ZFClientHomeTest.TC02UserInterfaceOfMoreDetails()[pri:0, instance:zf.test.ZFClientHomeTest@1e4a7dd4] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void zf.test.ZFClientHomeTest.TC02UserInterfaceOfMoreDetails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- zf.test.ZFClientHomeTest -->
+    </test> <!-- Single Gateway(failed)(failed)(failed)(failed)(failed)(failed) -->
+  </suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [xmlsuite]]]]]] -->
+</testng-results>

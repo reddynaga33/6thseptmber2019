@@ -1,0 +1,11 @@
+{
+  "layerId": "{layer id}",
+  "title": "{Test configuration}",
+  "properties": {
+    "boxId": null,
+    "testChar": "Nejžluťější koník ze všech koňů",
+    "testInt": 300,
+    "testNull": null,
+    "testArray": ["Skoda", "Ferrari", "Opel"]
+  }
+}

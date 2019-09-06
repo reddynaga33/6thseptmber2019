@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="Automotive" preserve-order="true">
+    <parameter name="envKey" value="tauri"/>
+    <parameter name="clientSuffix" value="225"/>
+    <test thread-count="1"  name="Explore" group-by-instances="true">
+        <classes>
+            <class name="com.openmatics.test.functional.platform.servicemanagement_mc.ClientUsesServiceRestAcceptanceTest"/>
+        </classes>
+    </test>
+</suite>

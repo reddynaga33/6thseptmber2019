@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [xmlsuite]">
+  <test thread-count="5" name="ZF Regression(failed)">
+    <classes>
+      <class name="zf.test.testing">
+        <methods>
+          <include name="Tc01Login"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- zf.test.testing -->
+      <class name="zf.test.MicrosoftLoginTest">
+        <methods>
+          <include name="Tc01Login"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- zf.test.MicrosoftLoginTest -->
+    </classes>
+  </test> <!-- ZF Regression(failed) -->
+</suite> <!-- Failed suite [xmlsuite] -->

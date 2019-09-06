@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+	<test name="ZF Regression Test">
+		<classes>
+			<class name="framework.Hooks" />
+			<class name="zf.test.MicrosoftLoginTest" />
+			<class name="zf.test.testing" />
+			
+			
+		</classes>
+	</test>
+</suite>
+

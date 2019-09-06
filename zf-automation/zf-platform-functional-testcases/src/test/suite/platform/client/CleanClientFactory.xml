@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="CleanClientInfrastructure" preserve-order="true">
+
+    <parameter name="envKey" value="daedalus"/>
+    <parameter name="startDate" value="2016-01-01T00:00:00.000Z"/>
+    <parameter name="endDate" value="2019-10-31T00:00:00.000Z"/>
+    <parameter name="ageInDays" value="10"/>
+
+    <test thread-count="1"  name="CleanClient"  group-by-instances="true">
+        <classes>
+            <class name="com.openmatics.test.functional.platform.client.delete.CleanClientsTestFactory"/>
+        </classes>
+    </test>
+</suite>
